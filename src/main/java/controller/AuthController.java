@@ -1,7 +1,7 @@
 package controller;
 
 import model.Pengguna;
-import repository.DBConnection;
+import config.DBConnection;
 import java.sql.*;
 import java.security.SecureRandom;
 import javax.crypto.SecretKeyFactory;

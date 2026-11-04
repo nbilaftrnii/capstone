@@ -2,7 +2,7 @@ package view;
 
 import controller.OperatorController;
 import model.Pengguna;
-import repository.DBConnection;
+import config.DBConnection;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

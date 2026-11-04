@@ -19,7 +19,7 @@ import javax.swing.SwingConstants;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
 import javax.swing.table.DefaultTableModel;
 import model.Pengguna;
-import repository.DBConnection;
+import config.DBConnection;
 
 /**
  * ArgoPort | Admin Workspace - Kelola Slot Gudang.
@@ -418,7 +418,7 @@ public class AdminSlotForm extends javax.swing.JFrame {
     }//GEN-LAST:event_btnMenuLaporanActionPerformed
 
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
-        repository.DBConnection.logout();
+        config.DBConnection.logout();
         util.Sesi.pengguna = null;
         new WelcomeView().setVisible(true);
         dispose();

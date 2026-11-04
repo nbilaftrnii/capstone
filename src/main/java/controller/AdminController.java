@@ -1,7 +1,7 @@
 package controller;
 
-import repository.DBConnection;
-import repository.SlotRepository;
+import config.DBConnection;
+import config.SlotRepository;
 
 import java.io.File;
 import java.io.PrintWriter;

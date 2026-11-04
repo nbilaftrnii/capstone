@@ -2,7 +2,7 @@ package view;
 
 import controller.AdminController;
 import model.Pengguna;
-import repository.DBConnection;
+import config.DBConnection;
 
 import java.io.File;
 import java.time.LocalDate;
@@ -427,6 +427,7 @@ public class AdminView extends javax.swing.JFrame {
         scrollDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(222, 231, 239)));
 
         tblDashboard.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N
+        tblDashboard.setRowHeight(27);
         tblDashboard.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -443,7 +444,6 @@ public class AdminView extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tblDashboard.setRowHeight(27);
         scrollDashboard.setViewportView(tblDashboard);
 
         pnlDashboard.add(scrollDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 152, 950, 390));
@@ -1022,7 +1022,7 @@ public class AdminView extends javax.swing.JFrame {
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
         DBConnection.logout();
         dispose();
-        new LoginView().setVisible(true);
+        new WelcomeView().setVisible(true);
     }//GEN-LAST:event_btnLogoutActionPerformed
 
     private void btnTambahDermagaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahDermagaActionPerformed
@@ -1176,7 +1176,22 @@ public class AdminView extends javax.swing.JFrame {
         dashboardValues = new JLabel[]{lblCardValue1, lblCardValue2, lblCardValue3, lblCardValue4};
         dashboardTable = tblDashboard;
         navButtons.addAll(java.util.Arrays.asList(btnMenuDashboard, btnMenuDermaga, btnMenuSlot, btnMenuTarif, btnMenuBilling, btnMenuAkun, btnMenuLaporan));
+        pasangHoverNavigasi();
         bukaMenu(0);
+    }
+
+    /** Efek hover pada tombol sidebar supaya terasa seperti tombol. */
+    private void pasangHoverNavigasi() {
+        for (JButton b : navButtons) {
+            b.addMouseListener(new java.awt.event.MouseAdapter() {
+                @Override public void mouseEntered(java.awt.event.MouseEvent e) {
+                    if (!b.getBackground().equals(new Color(0, 140, 160))) b.setBackground(new Color(30, 62, 100));
+                }
+                @Override public void mouseExited(java.awt.event.MouseEvent e) {
+                    if (!b.getBackground().equals(new Color(0, 140, 160))) b.setBackground(new Color(17, 39, 67));
+                }
+            });
+        }
     }
 
     /** Membuka halaman ke-index pada area kanan; sidebar tetap tampil. */
