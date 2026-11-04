@@ -97,17 +97,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         lblRole.setText("Menu Admin");
         pnlSidebar.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 135, 200, 22));
 
+        btnMenuDashboard.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDashboard.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDashboard.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDashboard.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDashboard.setText("Dashboard");
-        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDashboard.setBorderPainted(true);
         btnMenuDashboard.setContentAreaFilled(false);
-        btnMenuDashboard.setOpaque(true);
-        btnMenuDashboard.setFocusPainted(false);
         btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDashboard.setFocusPainted(false);
+        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDashboard.setOpaque(true);
         btnMenuDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDashboardActionPerformed(evt);
@@ -115,17 +114,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 190, 219, 39));
 
+        btnMenuDermaga.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDermaga.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDermaga.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDermaga.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDermaga.setText("Kelola Dermaga");
-        btnMenuDermaga.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDermaga.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDermaga.setBorderPainted(true);
         btnMenuDermaga.setContentAreaFilled(false);
-        btnMenuDermaga.setOpaque(true);
-        btnMenuDermaga.setFocusPainted(false);
         btnMenuDermaga.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDermaga.setFocusPainted(false);
+        btnMenuDermaga.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDermaga.setOpaque(true);
         btnMenuDermaga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDermagaActionPerformed(evt);
@@ -133,17 +131,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDermaga, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 238, 219, 39));
 
+        btnMenuSlot.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuSlot.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuSlot.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuSlot.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuSlot.setText("Kelola Slot Gudang");
-        btnMenuSlot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuSlot.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuSlot.setBorderPainted(true);
         btnMenuSlot.setContentAreaFilled(false);
-        btnMenuSlot.setOpaque(true);
-        btnMenuSlot.setFocusPainted(false);
         btnMenuSlot.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuSlot.setFocusPainted(false);
+        btnMenuSlot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuSlot.setOpaque(true);
         btnMenuSlot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuSlotActionPerformed(evt);
@@ -151,17 +148,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuSlot, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 286, 219, 39));
 
+        btnMenuTarif.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuTarif.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuTarif.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuTarif.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuTarif.setText("Kelola Tarif");
-        btnMenuTarif.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuTarif.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuTarif.setBorderPainted(true);
         btnMenuTarif.setContentAreaFilled(false);
-        btnMenuTarif.setOpaque(true);
-        btnMenuTarif.setFocusPainted(false);
         btnMenuTarif.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuTarif.setFocusPainted(false);
+        btnMenuTarif.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuTarif.setOpaque(true);
         btnMenuTarif.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuTarifActionPerformed(evt);
@@ -169,17 +165,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuTarif, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 334, 219, 39));
 
+        btnMenuBilling.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBilling.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuBilling.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuBilling.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBilling.setText("Billing & Pembayaran");
-        btnMenuBilling.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuBilling.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuBilling.setBorderPainted(true);
         btnMenuBilling.setContentAreaFilled(false);
-        btnMenuBilling.setOpaque(true);
-        btnMenuBilling.setFocusPainted(false);
         btnMenuBilling.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuBilling.setFocusPainted(false);
+        btnMenuBilling.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuBilling.setOpaque(true);
         btnMenuBilling.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuBillingActionPerformed(evt);
@@ -187,17 +182,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuBilling, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 382, 219, 39));
 
+        btnMenuAkun.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuAkun.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuAkun.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuAkun.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuAkun.setText("Kelola Akun Operator");
-        btnMenuAkun.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuAkun.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuAkun.setBorderPainted(true);
         btnMenuAkun.setContentAreaFilled(false);
-        btnMenuAkun.setOpaque(true);
-        btnMenuAkun.setFocusPainted(false);
         btnMenuAkun.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuAkun.setFocusPainted(false);
+        btnMenuAkun.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuAkun.setOpaque(true);
         btnMenuAkun.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuAkunActionPerformed(evt);
@@ -205,17 +199,16 @@ public class AdminSlotForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 430, 219, 39));
 
+        btnMenuLaporan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuLaporan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuLaporan.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuLaporan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuLaporan.setText("Laporan");
-        btnMenuLaporan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuLaporan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuLaporan.setBorderPainted(true);
         btnMenuLaporan.setContentAreaFilled(false);
-        btnMenuLaporan.setOpaque(true);
-        btnMenuLaporan.setFocusPainted(false);
         btnMenuLaporan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuLaporan.setFocusPainted(false);
+        btnMenuLaporan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuLaporan.setOpaque(true);
         btnMenuLaporan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuLaporanActionPerformed(evt);
@@ -268,7 +261,6 @@ public class AdminSlotForm extends javax.swing.JFrame {
         lblSubheading.setText("Kelola dan pantau data kelola slot gudang.");
         pnlMain.add(lblSubheading, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 62, 900, 25));
 
-
         pnlSlot.setBackground(new java.awt.Color(255, 255, 255));
         pnlSlot.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -280,29 +272,24 @@ public class AdminSlotForm extends javax.swing.JFrame {
         tblSlot.setForeground(new java.awt.Color(43, 57, 73));
         tblSlot.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblSlot.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblSlot.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID SLOT",
-                    "KODE BLOK",
-                    "KAPASITAS (M3)",
-                    "SISA (M3)",
-                    "STATUS",
-                    "ID OPERATOR"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID SLOT", "KODE BLOK", "KAPASITAS (M3)", "SISA (M3)", "STATUS", "ID OPERATOR"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollSlot.setViewportView(tblSlot);
+
         pnlSlot.add(scrollSlot, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 300));
 
         lblKodeBlok.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N

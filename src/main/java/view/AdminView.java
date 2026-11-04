@@ -57,8 +57,8 @@ public class AdminView extends javax.swing.JFrame {
     private void initComponents() {
 
         pnlSidebar = new javax.swing.JPanel();
-        lblBrand = new javax.swing.JLabel();
         lblLogo = new javax.swing.JLabel();
+        lblBrand = new javax.swing.JLabel();
         lblSection = new javax.swing.JLabel();
         lblRole = new javax.swing.JLabel();
         btnMenuDashboard = new javax.swing.JButton();
@@ -178,17 +178,17 @@ public class AdminView extends javax.swing.JFrame {
         lblRole.setText("Menu Admin");
         pnlSidebar.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 135, 200, 22));
 
+        btnMenuDashboard.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuDashboard.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDashboard.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDashboard.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuDashboard.setText("Dashboard");
-        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDashboard.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuDashboard.setBorderPainted(false);
         btnMenuDashboard.setContentAreaFilled(false);
-        btnMenuDashboard.setOpaque(true);
-        btnMenuDashboard.setFocusPainted(false);
         btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDashboard.setFocusPainted(false);
+        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDashboard.setOpaque(true);
         btnMenuDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDashboardActionPerformed(evt);
@@ -196,17 +196,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 190, 219, 39));
 
+        btnMenuDermaga.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuDermaga.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDermaga.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDermaga.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuDermaga.setText("Kelola Dermaga");
-        btnMenuDermaga.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDermaga.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuDermaga.setBorderPainted(false);
         btnMenuDermaga.setContentAreaFilled(false);
-        btnMenuDermaga.setOpaque(true);
-        btnMenuDermaga.setFocusPainted(false);
         btnMenuDermaga.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDermaga.setFocusPainted(false);
+        btnMenuDermaga.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDermaga.setOpaque(true);
         btnMenuDermaga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDermagaActionPerformed(evt);
@@ -214,17 +214,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDermaga, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 238, 219, 39));
 
+        btnMenuSlot.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuSlot.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuSlot.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuSlot.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuSlot.setText("Kelola Slot Gudang");
-        btnMenuSlot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuSlot.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuSlot.setBorderPainted(false);
         btnMenuSlot.setContentAreaFilled(false);
-        btnMenuSlot.setOpaque(true);
-        btnMenuSlot.setFocusPainted(false);
         btnMenuSlot.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuSlot.setFocusPainted(false);
+        btnMenuSlot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuSlot.setOpaque(true);
         btnMenuSlot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuSlotActionPerformed(evt);
@@ -232,17 +232,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuSlot, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 286, 219, 39));
 
+        btnMenuTarif.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuTarif.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuTarif.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuTarif.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuTarif.setText("Kelola Tarif");
-        btnMenuTarif.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuTarif.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuTarif.setBorderPainted(false);
         btnMenuTarif.setContentAreaFilled(false);
-        btnMenuTarif.setOpaque(true);
-        btnMenuTarif.setFocusPainted(false);
         btnMenuTarif.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuTarif.setFocusPainted(false);
+        btnMenuTarif.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuTarif.setOpaque(true);
         btnMenuTarif.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuTarifActionPerformed(evt);
@@ -250,17 +250,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuTarif, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 334, 219, 39));
 
+        btnMenuBilling.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuBilling.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuBilling.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuBilling.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuBilling.setText("Billing & Pembayaran");
-        btnMenuBilling.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuBilling.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuBilling.setBorderPainted(false);
         btnMenuBilling.setContentAreaFilled(false);
-        btnMenuBilling.setOpaque(true);
-        btnMenuBilling.setFocusPainted(false);
         btnMenuBilling.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuBilling.setFocusPainted(false);
+        btnMenuBilling.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuBilling.setOpaque(true);
         btnMenuBilling.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuBillingActionPerformed(evt);
@@ -268,17 +268,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuBilling, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 382, 219, 39));
 
+        btnMenuAkun.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuAkun.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuAkun.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuAkun.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuAkun.setText("Kelola Akun Operator");
-        btnMenuAkun.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuAkun.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuAkun.setBorderPainted(false);
         btnMenuAkun.setContentAreaFilled(false);
-        btnMenuAkun.setOpaque(true);
-        btnMenuAkun.setFocusPainted(false);
         btnMenuAkun.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuAkun.setFocusPainted(false);
+        btnMenuAkun.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuAkun.setOpaque(true);
         btnMenuAkun.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuAkunActionPerformed(evt);
@@ -286,17 +286,17 @@ public class AdminView extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 430, 219, 39));
 
+        btnMenuLaporan.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuLaporan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuLaporan.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuLaporan.setBackground(new java.awt.Color(17, 39, 67));
         btnMenuLaporan.setText("Laporan");
-        btnMenuLaporan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuLaporan.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 15, 0, 8));
         btnMenuLaporan.setBorderPainted(false);
         btnMenuLaporan.setContentAreaFilled(false);
-        btnMenuLaporan.setOpaque(true);
-        btnMenuLaporan.setFocusPainted(false);
         btnMenuLaporan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuLaporan.setFocusPainted(false);
+        btnMenuLaporan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuLaporan.setOpaque(true);
         btnMenuLaporan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuLaporanActionPerformed(evt);
@@ -368,6 +368,7 @@ public class AdminView extends javax.swing.JFrame {
         lblCardValue1.setForeground(new java.awt.Color(0, 140, 160));
         lblCardValue1.setText("-");
         pnlCard1.add(lblCardValue1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
+
         pnlDashboard.add(pnlCard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 18, 222, 82));
 
         pnlCard2.setBackground(new java.awt.Color(255, 255, 255));
@@ -383,6 +384,7 @@ public class AdminView extends javax.swing.JFrame {
         lblCardValue2.setForeground(new java.awt.Color(0, 115, 135));
         lblCardValue2.setText("-");
         pnlCard2.add(lblCardValue2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
+
         pnlDashboard.add(pnlCard2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 18, 222, 82));
 
         pnlCard3.setBackground(new java.awt.Color(255, 255, 255));
@@ -398,6 +400,7 @@ public class AdminView extends javax.swing.JFrame {
         lblCardValue3.setForeground(new java.awt.Color(27, 93, 145));
         lblCardValue3.setText("-");
         pnlCard3.add(lblCardValue3, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
+
         pnlDashboard.add(pnlCard3, new org.netbeans.lib.awtextra.AbsoluteConstraints(502, 18, 222, 82));
 
         pnlCard4.setBackground(new java.awt.Color(255, 255, 255));
@@ -413,6 +416,7 @@ public class AdminView extends javax.swing.JFrame {
         lblCardValue4.setForeground(new java.awt.Color(25, 115, 105));
         lblCardValue4.setText("-");
         pnlCard4.add(lblCardValue4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
+
         pnlDashboard.add(pnlCard4, new org.netbeans.lib.awtextra.AbsoluteConstraints(744, 18, 222, 82));
 
         lblRecent.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
@@ -423,30 +427,27 @@ public class AdminView extends javax.swing.JFrame {
         scrollDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(222, 231, 239)));
 
         tblDashboard.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N
-        tblDashboard.setRowHeight(27);
-
         tblDashboard.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID KAPAL",
-                    "NAMA KAPAL",
-                    "STATUS KAPAL",
-                    "STATUS BAYAR",
-                    "TOTAL TAGIHAN (RP)"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID KAPAL", "NAMA KAPAL", "STATUS KAPAL", "STATUS BAYAR", "TOTAL TAGIHAN (RP)"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        tblDashboard.setRowHeight(27);
         scrollDashboard.setViewportView(tblDashboard);
+
         pnlDashboard.add(scrollDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 152, 950, 390));
+
         pnlContent.add(pnlDashboard, "card0");
 
         pnlDermaga.setBackground(new java.awt.Color(255, 255, 255));
@@ -460,27 +461,24 @@ public class AdminView extends javax.swing.JFrame {
         tblDermaga.setForeground(new java.awt.Color(43, 57, 73));
         tblDermaga.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblDermaga.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblDermaga.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID DERMAGA",
-                    "NAMA DERMAGA",
-                    "KAPASITAS MAKSIMAL (TON)",
-                    "STATUS"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID DERMAGA", "NAMA DERMAGA", "KAPASITAS MAKSIMAL (TON)", "STATUS"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollDermaga.setViewportView(tblDermaga);
+
         pnlDermaga.add(scrollDermaga, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 300));
 
         lblKodeDermaga.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N
@@ -593,29 +591,24 @@ public class AdminView extends javax.swing.JFrame {
         tblSlot.setForeground(new java.awt.Color(43, 57, 73));
         tblSlot.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblSlot.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblSlot.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID SLOT",
-                    "KODE BLOK",
-                    "KAPASITAS (M3)",
-                    "SISA (M3)",
-                    "STATUS",
-                    "ID OPERATOR"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID SLOT", "KODE BLOK", "KAPASITAS (M3)", "SISA (M3)", "STATUS", "ID OPERATOR"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollSlot.setViewportView(tblSlot);
+
         pnlSlot.add(scrollSlot, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 300));
 
         lblKodeBlok.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N
@@ -770,28 +763,24 @@ public class AdminView extends javax.swing.JFrame {
         tblBilling.setForeground(new java.awt.Color(43, 57, 73));
         tblBilling.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblBilling.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblBilling.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID KAPAL",
-                    "NAMA KAPAL",
-                    "STATUS KAPAL",
-                    "STATUS BAYAR",
-                    "TOTAL TAGIHAN (RP)"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID KAPAL", "NAMA KAPAL", "STATUS KAPAL", "STATUS BAYAR", "TOTAL TAGIHAN (RP)"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollBilling.setViewportView(tblBilling);
+
         pnlBilling.add(scrollBilling, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 400));
 
         btnBayar.setBackground(new java.awt.Color(27, 93, 145));
@@ -835,26 +824,24 @@ public class AdminView extends javax.swing.JFrame {
         tblAkun.setForeground(new java.awt.Color(43, 57, 73));
         tblAkun.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblAkun.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblAkun.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID PENGGUNA",
-                    "NAMA",
-                    "DIVISI"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID PENGGUNA", "NAMA", "DIVISI"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollAkun.setViewportView(tblAkun);
+
         pnlAkun.add(scrollAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 400));
 
         btnHapusAkun.setBackground(new java.awt.Color(253, 236, 234));
@@ -974,29 +961,24 @@ public class AdminView extends javax.swing.JFrame {
         tblLaporan.setForeground(new java.awt.Color(43, 57, 73));
         tblLaporan.setSelectionBackground(new java.awt.Color(222, 237, 249));
         tblLaporan.setSelectionForeground(new java.awt.Color(25, 53, 78));
-
         tblLaporan.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-        
-                },
-                new String [] {
-                    "ID RETRIBUSI",
-                    "ID KAPAL",
-                    "NAMA KAPAL",
-                    "TANGGAL BAYAR",
-                    "TOTAL BIAYA (RP)",
-                    "STATUS"
-                }
-            ) {
-                boolean[] canEdit = new boolean [] {
-                    false, false, false, false, false, false
-                };
-        
-                public boolean isCellEditable(int rowIndex, int columnIndex) {
-                    return canEdit [columnIndex];
-                }
-            });
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID RETRIBUSI", "ID KAPAL", "NAMA KAPAL", "TANGGAL BAYAR", "TOTAL BIAYA (RP)", "STATUS"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         scrollLaporan.setViewportView(tblLaporan);
+
         pnlLaporan.add(scrollLaporan, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 961, 400));
 
         pnlContent.add(pnlLaporan, "card6");
@@ -1040,7 +1022,7 @@ public class AdminView extends javax.swing.JFrame {
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
         DBConnection.logout();
         dispose();
-        new WelcomeView().setVisible(true);
+        new LoginView().setVisible(true);
     }//GEN-LAST:event_btnLogoutActionPerformed
 
     private void btnTambahDermagaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahDermagaActionPerformed
@@ -1194,22 +1176,7 @@ public class AdminView extends javax.swing.JFrame {
         dashboardValues = new JLabel[]{lblCardValue1, lblCardValue2, lblCardValue3, lblCardValue4};
         dashboardTable = tblDashboard;
         navButtons.addAll(java.util.Arrays.asList(btnMenuDashboard, btnMenuDermaga, btnMenuSlot, btnMenuTarif, btnMenuBilling, btnMenuAkun, btnMenuLaporan));
-        pasangHoverNavigasi();
         bukaMenu(0);
-    }
-
-    /** Efek hover pada tombol sidebar supaya terasa seperti tombol. */
-    private void pasangHoverNavigasi() {
-        for (JButton b : navButtons) {
-            b.addMouseListener(new java.awt.event.MouseAdapter() {
-                @Override public void mouseEntered(java.awt.event.MouseEvent e) {
-                    if (!b.getBackground().equals(new Color(0, 140, 160))) b.setBackground(new Color(30, 62, 100));
-                }
-                @Override public void mouseExited(java.awt.event.MouseEvent e) {
-                    if (!b.getBackground().equals(new Color(0, 140, 160))) b.setBackground(new Color(17, 39, 67));
-                }
-            });
-        }
     }
 
     /** Membuka halaman ke-index pada area kanan; sidebar tetap tampil. */
@@ -1373,6 +1340,13 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JButton btnHapusDermaga;
     private javax.swing.JButton btnHapusSlot;
     private javax.swing.JButton btnLogout;
+    private javax.swing.JButton btnMenuAkun;
+    private javax.swing.JButton btnMenuBilling;
+    private javax.swing.JButton btnMenuDashboard;
+    private javax.swing.JButton btnMenuDermaga;
+    private javax.swing.JButton btnMenuLaporan;
+    private javax.swing.JButton btnMenuSlot;
+    private javax.swing.JButton btnMenuTarif;
     private javax.swing.JButton btnMuatAkun;
     private javax.swing.JButton btnMuatBilling;
     private javax.swing.JButton btnMuatDermaga;
@@ -1386,7 +1360,14 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JButton btnUbahDermaga;
     private javax.swing.JButton btnUbahSlot;
     private javax.swing.JLabel lblBrand;
-    private javax.swing.JLabel lblLogo;
+    private javax.swing.JLabel lblCardTitle1;
+    private javax.swing.JLabel lblCardTitle2;
+    private javax.swing.JLabel lblCardTitle3;
+    private javax.swing.JLabel lblCardTitle4;
+    private javax.swing.JLabel lblCardValue1;
+    private javax.swing.JLabel lblCardValue2;
+    private javax.swing.JLabel lblCardValue3;
+    private javax.swing.JLabel lblCardValue4;
     private javax.swing.JLabel lblDari;
     private javax.swing.JLabel lblHeading;
     private javax.swing.JLabel lblKapalTitle;
@@ -1394,12 +1375,14 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel lblKapasitasSlot;
     private javax.swing.JLabel lblKodeBlok;
     private javax.swing.JLabel lblKodeDermaga;
+    private javax.swing.JLabel lblLogo;
     private javax.swing.JLabel lblNamaDermaga;
     private javax.swing.JLabel lblNilaiKapal;
     private javax.swing.JLabel lblNilaiPendapatan;
     private javax.swing.JLabel lblNilaiTonase;
     private javax.swing.JLabel lblOperatorSlot;
     private javax.swing.JLabel lblPendapatanTitle;
+    private javax.swing.JLabel lblRecent;
     private javax.swing.JLabel lblRole;
     private javax.swing.JLabel lblSampai;
     private javax.swing.JLabel lblSection;
@@ -1409,9 +1392,14 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel lblTarifTitle;
     private javax.swing.JLabel lblTonaseTitle;
     private javax.swing.JLabel lblWelcome;
-    private javax.swing.JLabel userLabel;
     private javax.swing.JPanel pnlAkun;
     private javax.swing.JPanel pnlBilling;
+    private javax.swing.JPanel pnlCard1;
+    private javax.swing.JPanel pnlCard2;
+    private javax.swing.JPanel pnlCard3;
+    private javax.swing.JPanel pnlCard4;
+    private javax.swing.JPanel pnlContent;
+    private javax.swing.JPanel pnlDashboard;
     private javax.swing.JPanel pnlDermaga;
     private javax.swing.JPanel pnlHeader;
     private javax.swing.JPanel pnlLaporan;
@@ -1421,12 +1409,13 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JPanel pnlTarif;
     private javax.swing.JScrollPane scrollAkun;
     private javax.swing.JScrollPane scrollBilling;
+    private javax.swing.JScrollPane scrollDashboard;
     private javax.swing.JScrollPane scrollDermaga;
     private javax.swing.JScrollPane scrollLaporan;
     private javax.swing.JScrollPane scrollSlot;
-    private javax.swing.JPanel pnlContent;
     private javax.swing.JTable tblAkun;
     private javax.swing.JTable tblBilling;
+    private javax.swing.JTable tblDashboard;
     private javax.swing.JTable tblDermaga;
     private javax.swing.JTable tblLaporan;
     private javax.swing.JTable tblSlot;
@@ -1440,28 +1429,6 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JTextField txtSampai;
     private javax.swing.JTextField txtTarifBongkar;
     private javax.swing.JTextField txtTarifTambat;
-    private javax.swing.JButton btnMenuDashboard;
-    private javax.swing.JButton btnMenuDermaga;
-    private javax.swing.JButton btnMenuSlot;
-    private javax.swing.JButton btnMenuTarif;
-    private javax.swing.JButton btnMenuBilling;
-    private javax.swing.JButton btnMenuAkun;
-    private javax.swing.JButton btnMenuLaporan;
-    private javax.swing.JPanel pnlDashboard;
-    private javax.swing.JPanel pnlCard1;
-    private javax.swing.JLabel lblCardTitle1;
-    private javax.swing.JLabel lblCardValue1;
-    private javax.swing.JPanel pnlCard2;
-    private javax.swing.JLabel lblCardTitle2;
-    private javax.swing.JLabel lblCardValue2;
-    private javax.swing.JPanel pnlCard3;
-    private javax.swing.JLabel lblCardTitle3;
-    private javax.swing.JLabel lblCardValue3;
-    private javax.swing.JPanel pnlCard4;
-    private javax.swing.JLabel lblCardTitle4;
-    private javax.swing.JLabel lblCardValue4;
-    private javax.swing.JLabel lblRecent;
-    private javax.swing.JScrollPane scrollDashboard;
-    private javax.swing.JTable tblDashboard;
+    private javax.swing.JLabel userLabel;
     // End of variables declaration//GEN-END:variables
 }

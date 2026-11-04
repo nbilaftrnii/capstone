@@ -96,17 +96,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         lblRole.setText("Menu Operator");
         pnlSidebar.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 135, 200, 22));
 
+        btnMenuDashboard.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDashboard.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDashboard.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDashboard.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDashboard.setText("Dashboard");
-        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDashboard.setBorderPainted(true);
         btnMenuDashboard.setContentAreaFilled(false);
-        btnMenuDashboard.setOpaque(true);
-        btnMenuDashboard.setFocusPainted(false);
         btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDashboard.setFocusPainted(false);
+        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDashboard.setOpaque(true);
         btnMenuDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDashboardActionPerformed(evt);
@@ -114,17 +113,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 190, 219, 39));
 
+        btnMenuPendaftaran.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuPendaftaran.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuPendaftaran.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuPendaftaran.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuPendaftaran.setText("Pendaftaran Kapal Baru");
-        btnMenuPendaftaran.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuPendaftaran.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuPendaftaran.setBorderPainted(true);
         btnMenuPendaftaran.setContentAreaFilled(false);
-        btnMenuPendaftaran.setOpaque(true);
-        btnMenuPendaftaran.setFocusPainted(false);
         btnMenuPendaftaran.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuPendaftaran.setFocusPainted(false);
+        btnMenuPendaftaran.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuPendaftaran.setOpaque(true);
         btnMenuPendaftaran.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuPendaftaranActionPerformed(evt);
@@ -132,17 +130,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuPendaftaran, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 238, 219, 39));
 
+        btnMenuDaftarKapal.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDaftarKapal.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDaftarKapal.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuDaftarKapal.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDaftarKapal.setText("Lihat Daftar Kapal");
-        btnMenuDaftarKapal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuDaftarKapal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDaftarKapal.setBorderPainted(true);
         btnMenuDaftarKapal.setContentAreaFilled(false);
-        btnMenuDaftarKapal.setOpaque(true);
-        btnMenuDaftarKapal.setFocusPainted(false);
         btnMenuDaftarKapal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDaftarKapal.setFocusPainted(false);
+        btnMenuDaftarKapal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDaftarKapal.setOpaque(true);
         btnMenuDaftarKapal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDaftarKapalActionPerformed(evt);
@@ -150,17 +147,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDaftarKapal, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 286, 219, 39));
 
+        btnMenuPenambatan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuPenambatan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuPenambatan.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuPenambatan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuPenambatan.setText("Penambatan Kapal");
-        btnMenuPenambatan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuPenambatan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuPenambatan.setBorderPainted(true);
         btnMenuPenambatan.setContentAreaFilled(false);
-        btnMenuPenambatan.setOpaque(true);
-        btnMenuPenambatan.setFocusPainted(false);
         btnMenuPenambatan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuPenambatan.setFocusPainted(false);
+        btnMenuPenambatan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuPenambatan.setOpaque(true);
         btnMenuPenambatan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuPenambatanActionPerformed(evt);
@@ -168,17 +164,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuPenambatan, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 334, 219, 39));
 
+        btnMenuBongkarMuat.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBongkarMuat.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuBongkarMuat.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuBongkarMuat.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBongkarMuat.setText("Bongkar Muat Kargo");
-        btnMenuBongkarMuat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuBongkarMuat.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuBongkarMuat.setBorderPainted(true);
         btnMenuBongkarMuat.setContentAreaFilled(false);
-        btnMenuBongkarMuat.setOpaque(true);
-        btnMenuBongkarMuat.setFocusPainted(false);
         btnMenuBongkarMuat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuBongkarMuat.setFocusPainted(false);
+        btnMenuBongkarMuat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuBongkarMuat.setOpaque(true);
         btnMenuBongkarMuat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuBongkarMuatActionPerformed(evt);
@@ -186,17 +181,16 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuBongkarMuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 382, 219, 39));
 
+        btnMenuKargo.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuKargo.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuKargo.setForeground(new java.awt.Color(255, 255, 255));
-        btnMenuKargo.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuKargo.setText("Kelola Data Kargo");
-        btnMenuKargo.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btnMenuKargo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuKargo.setBorderPainted(true);
         btnMenuKargo.setContentAreaFilled(false);
-        btnMenuKargo.setOpaque(true);
-        btnMenuKargo.setFocusPainted(false);
         btnMenuKargo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuKargo.setFocusPainted(false);
+        btnMenuKargo.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuKargo.setOpaque(true);
         btnMenuKargo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuKargoActionPerformed(evt);
@@ -248,7 +242,6 @@ public class OperatorPendaftaranForm extends javax.swing.JFrame {
         lblSubheading.setForeground(new java.awt.Color(112, 127, 145));
         lblSubheading.setText("Kelola dan pantau data pendaftaran kapal baru.");
         pnlMain.add(lblSubheading, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 62, 900, 25));
-
 
         pnlRegister.setBackground(new java.awt.Color(255, 255, 255));
         pnlRegister.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

@@ -53,7 +53,13 @@ ON DUPLICATE KEY UPDATE id_tarif = id_tarif;
 ALTER TABLE jadwal_sandar MODIFY COLUMN waktu_lepas DATETIME NULL;
 ALTER TABLE retribusi MODIFY COLUMN tanggal_bayar DATE NULL;
 
--- Hak akses akun DCL yang dipakai aplikasi JDBC.
+-- Akun DCL untuk kebutuhan pembagian hak akses database.
+-- Aplikasi desktop secara default memakai akun lokal root dari DBConnection.java;
+-- akun DCL berikut disediakan untuk pengujian hak akses/praktikum.
+CREATE USER IF NOT EXISTS 'admin_argo'@'localhost' IDENTIFIED BY 'AdminArgo123!';
+CREATE USER IF NOT EXISTS 'operator_argo'@'localhost' IDENTIFIED BY 'OperatorArgo123!';
+
+-- Hak akses akun DCL.
 GRANT ALL PRIVILEGES ON argoport_db.* TO 'admin_argo'@'localhost';
 
 GRANT SELECT ON argoport_db.pengguna      TO 'operator_argo'@'localhost';

@@ -23,12 +23,12 @@ public class AuthController {
             ps.setString(1,username);
             try(ResultSet rs=ps.executeQuery()) {
                 if(!rs.next() || !"Aktif".equalsIgnoreCase(rs.getString("status_akun")) || !verify(password,rs.getString("salt"),rs.getString("password_hash"))) {
-                    DBConnection.logout(); loginFailCount++;
+                    DBConnection.logout (); loginFailCount++;
                     if(loginFailCount>=MAX_GAGAL){blockedUntil=System.currentTimeMillis()+60000;loginFailCount=0;throw new Exception("Terlalu banyak percobaan. Coba lagi dalam 60 detik.");}
                     throw new Exception("Username atau password salah.");
                 }
                 loginFailCount=0; blockedUntil=0;
-                String role=rs.getString("peran"); DBConnection.setActiveRole(role);
+                String role=rs.getString("peran"); DBConnection.setActiveSession(username, role);
                 return new Pengguna(String.valueOf(rs.getInt("id_akun")),rs.getString("nama_lengkap"),username,"",role);
             }
         } catch(SQLException ex) { DBConnection.logout(); throw new Exception("Database tidak dapat diakses. Pastikan MySQL aktif, migrasi akun sudah dijalankan, dan konfigurasi database benar. Detail: "+ex.getMessage()); }

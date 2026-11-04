@@ -49,12 +49,11 @@ public class LoginView extends javax.swing.JFrame {
         btnNavBeranda.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavBeranda.setForeground(new java.awt.Color(255, 255, 255));
         btnNavBeranda.setText("Beranda");
-        btnNavBeranda.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavBeranda.setBorderPainted(false);
         btnNavBeranda.setContentAreaFilled(false);
-        btnNavBeranda.setOpaque(false);
-        btnNavBeranda.setFocusPainted(false);
         btnNavBeranda.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavBeranda.setFocusPainted(false);
+        btnNavBeranda.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavBeranda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavBerandaActionPerformed(evt);
@@ -65,12 +64,11 @@ public class LoginView extends javax.swing.JFrame {
         btnNavLogin.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavLogin.setForeground(new java.awt.Color(91, 197, 190));
         btnNavLogin.setText("Login");
-        btnNavLogin.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavLogin.setBorderPainted(false);
         btnNavLogin.setContentAreaFilled(false);
-        btnNavLogin.setOpaque(false);
-        btnNavLogin.setFocusPainted(false);
         btnNavLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavLogin.setFocusPainted(false);
+        btnNavLogin.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavLoginActionPerformed(evt);
@@ -78,15 +76,15 @@ public class LoginView extends javax.swing.JFrame {
         });
         getContentPane().add(btnNavLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 22, 90, 36));
 
+        btnNavRegistrasi.setBackground(new java.awt.Color(0, 140, 140));
         btnNavRegistrasi.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavRegistrasi.setForeground(new java.awt.Color(255, 255, 255));
-        btnNavRegistrasi.setBackground(new java.awt.Color(0, 140, 140));
         btnNavRegistrasi.setText("Registrasi");
         btnNavRegistrasi.setBorderPainted(false);
         btnNavRegistrasi.setContentAreaFilled(false);
-        btnNavRegistrasi.setOpaque(true);
-        btnNavRegistrasi.setFocusPainted(false);
         btnNavRegistrasi.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavRegistrasi.setFocusPainted(false);
+        btnNavRegistrasi.setOpaque(true);
         btnNavRegistrasi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavRegistrasiActionPerformed(evt);
@@ -97,12 +95,11 @@ public class LoginView extends javax.swing.JFrame {
         btnNavKeluar.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavKeluar.setForeground(new java.awt.Color(255, 255, 255));
         btnNavKeluar.setText("Keluar");
-        btnNavKeluar.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavKeluar.setBorderPainted(false);
         btnNavKeluar.setContentAreaFilled(false);
-        btnNavKeluar.setOpaque(false);
-        btnNavKeluar.setFocusPainted(false);
         btnNavKeluar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavKeluar.setFocusPainted(false);
+        btnNavKeluar.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavKeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavKeluarActionPerformed(evt);
@@ -152,15 +149,15 @@ public class LoginView extends javax.swing.JFrame {
         });
         pnlLogin.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 284, 340, 44));
 
+        btnLogin.setBackground(new java.awt.Color(27, 93, 145));
         btnLogin.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(255, 255, 255));
-        btnLogin.setBackground(new java.awt.Color(27, 93, 145));
         btnLogin.setText("Masuk ke sistem");
         btnLogin.setBorderPainted(false);
         btnLogin.setContentAreaFilled(false);
-        btnLogin.setOpaque(true);
-        btnLogin.setFocusPainted(false);
         btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLogin.setFocusPainted(false);
+        btnLogin.setOpaque(true);
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
@@ -170,19 +167,19 @@ public class LoginView extends javax.swing.JFrame {
 
         btnRegistrasi.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         btnRegistrasi.setForeground(new java.awt.Color(27, 93, 145));
-        btnRegistrasi.setBackground(new java.awt.Color(255, 255, 255));
         btnRegistrasi.setText("Belum punya akun? Registrasi operator");
         btnRegistrasi.setBorderPainted(false);
         btnRegistrasi.setContentAreaFilled(false);
-        btnRegistrasi.setOpaque(true);
-        btnRegistrasi.setFocusPainted(false);
         btnRegistrasi.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistrasi.setFocusPainted(false);
+        btnRegistrasi.setOpaque(true);
         btnRegistrasi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegistrasiActionPerformed(evt);
             }
         });
         pnlLogin.add(btnRegistrasi, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 414, 340, 32));
+
         getContentPane().add(pnlLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 115, 400, 470));
 
         lblBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bg_main.jpg"))); // NOI18N

@@ -100,16 +100,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblRole.setText("Menu Admin");
         pnlSidebar.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 135, 200, 22));
 
-        btnMenuDashboard.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuDashboard.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDashboard.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuDashboard.setBackground(new java.awt.Color(0, 140, 160));
         btnMenuDashboard.setText("Dashboard");
-        btnMenuDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDashboard.setContentAreaFilled(false);
-        btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuDashboard.setFocusPainted(false);
         btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuDashboard.setBorderPainted(true);
+        btnMenuDashboard.setContentAreaFilled(false);
         btnMenuDashboard.setOpaque(true);
+        btnMenuDashboard.setFocusPainted(false);
+        btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDashboardActionPerformed(evt);
@@ -117,16 +118,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 190, 219, 39));
 
-        btnMenuDermaga.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDermaga.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuDermaga.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuDermaga.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuDermaga.setText("Kelola Dermaga");
-        btnMenuDermaga.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuDermaga.setContentAreaFilled(false);
-        btnMenuDermaga.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuDermaga.setFocusPainted(false);
         btnMenuDermaga.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDermaga.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuDermaga.setBorderPainted(true);
+        btnMenuDermaga.setContentAreaFilled(false);
         btnMenuDermaga.setOpaque(true);
+        btnMenuDermaga.setFocusPainted(false);
+        btnMenuDermaga.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuDermaga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuDermagaActionPerformed(evt);
@@ -134,16 +136,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuDermaga, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 238, 219, 39));
 
-        btnMenuSlot.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuSlot.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuSlot.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuSlot.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuSlot.setText("Kelola Slot Gudang");
-        btnMenuSlot.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuSlot.setContentAreaFilled(false);
-        btnMenuSlot.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuSlot.setFocusPainted(false);
         btnMenuSlot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuSlot.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuSlot.setBorderPainted(true);
+        btnMenuSlot.setContentAreaFilled(false);
         btnMenuSlot.setOpaque(true);
+        btnMenuSlot.setFocusPainted(false);
+        btnMenuSlot.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuSlot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuSlotActionPerformed(evt);
@@ -151,16 +154,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuSlot, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 286, 219, 39));
 
-        btnMenuTarif.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuTarif.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuTarif.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuTarif.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuTarif.setText("Kelola Tarif");
-        btnMenuTarif.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuTarif.setContentAreaFilled(false);
-        btnMenuTarif.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuTarif.setFocusPainted(false);
         btnMenuTarif.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuTarif.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuTarif.setBorderPainted(true);
+        btnMenuTarif.setContentAreaFilled(false);
         btnMenuTarif.setOpaque(true);
+        btnMenuTarif.setFocusPainted(false);
+        btnMenuTarif.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuTarif.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuTarifActionPerformed(evt);
@@ -168,16 +172,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuTarif, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 334, 219, 39));
 
-        btnMenuBilling.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBilling.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuBilling.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuBilling.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuBilling.setText("Billing & Pembayaran");
-        btnMenuBilling.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuBilling.setContentAreaFilled(false);
-        btnMenuBilling.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuBilling.setFocusPainted(false);
         btnMenuBilling.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuBilling.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuBilling.setBorderPainted(true);
+        btnMenuBilling.setContentAreaFilled(false);
         btnMenuBilling.setOpaque(true);
+        btnMenuBilling.setFocusPainted(false);
+        btnMenuBilling.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuBilling.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuBillingActionPerformed(evt);
@@ -185,16 +190,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuBilling, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 382, 219, 39));
 
-        btnMenuAkun.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuAkun.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuAkun.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuAkun.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuAkun.setText("Kelola Akun Operator");
-        btnMenuAkun.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuAkun.setContentAreaFilled(false);
-        btnMenuAkun.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuAkun.setFocusPainted(false);
         btnMenuAkun.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuAkun.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuAkun.setBorderPainted(true);
+        btnMenuAkun.setContentAreaFilled(false);
         btnMenuAkun.setOpaque(true);
+        btnMenuAkun.setFocusPainted(false);
+        btnMenuAkun.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuAkun.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuAkunActionPerformed(evt);
@@ -202,16 +208,17 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         });
         pnlSidebar.add(btnMenuAkun, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 430, 219, 39));
 
-        btnMenuLaporan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuLaporan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnMenuLaporan.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuLaporan.setBackground(new java.awt.Color(28, 58, 95));
         btnMenuLaporan.setText("Laporan");
-        btnMenuLaporan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
-        btnMenuLaporan.setContentAreaFilled(false);
-        btnMenuLaporan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuLaporan.setFocusPainted(false);
         btnMenuLaporan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuLaporan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuLaporan.setBorderPainted(true);
+        btnMenuLaporan.setContentAreaFilled(false);
         btnMenuLaporan.setOpaque(true);
+        btnMenuLaporan.setFocusPainted(false);
+        btnMenuLaporan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenuLaporan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenuLaporanActionPerformed(evt);
@@ -264,6 +271,7 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblSubheading.setText("Ringkasan data operasional pelabuhan.");
         pnlMain.add(lblSubheading, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 62, 900, 25));
 
+
         pnlDashboard.setBackground(new java.awt.Color(246, 248, 251));
         pnlDashboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -280,7 +288,6 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblCardValue1.setForeground(new java.awt.Color(0, 140, 160));
         lblCardValue1.setText("-");
         pnlCard1.add(lblCardValue1, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
-
         pnlDashboard.add(pnlCard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 18, 222, 82));
 
         pnlCard2.setBackground(new java.awt.Color(255, 255, 255));
@@ -296,7 +303,6 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblCardValue2.setForeground(new java.awt.Color(0, 115, 135));
         lblCardValue2.setText("-");
         pnlCard2.add(lblCardValue2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
-
         pnlDashboard.add(pnlCard2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 18, 222, 82));
 
         pnlCard3.setBackground(new java.awt.Color(255, 255, 255));
@@ -312,7 +318,6 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblCardValue3.setForeground(new java.awt.Color(27, 93, 145));
         lblCardValue3.setText("-");
         pnlCard3.add(lblCardValue3, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
-
         pnlDashboard.add(pnlCard3, new org.netbeans.lib.awtextra.AbsoluteConstraints(502, 18, 222, 82));
 
         pnlCard4.setBackground(new java.awt.Color(255, 255, 255));
@@ -328,7 +333,6 @@ public class AdminDashboardForm extends javax.swing.JFrame {
         lblCardValue4.setForeground(new java.awt.Color(25, 115, 105));
         lblCardValue4.setText("-");
         pnlCard4.add(lblCardValue4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 34, 190, 35));
-
         pnlDashboard.add(pnlCard4, new org.netbeans.lib.awtextra.AbsoluteConstraints(744, 18, 222, 82));
 
         lblRecent.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
@@ -340,26 +344,29 @@ public class AdminDashboardForm extends javax.swing.JFrame {
 
         tblDashboard.setFont(new java.awt.Font("SansSerif", 0, 11)); // NOI18N
         tblDashboard.setRowHeight(27);
+
         tblDashboard.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "ID KAPAL", "NAMA KAPAL", "STATUS KAPAL", "STATUS BAYAR", "TOTAL TAGIHAN (RP)"
-            }
-        ) {
-            boolean[] canEdit = new boolean [] {
-                false, false, false, false, false
-            };
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
+                new Object [][] {
+        
+                },
+                new String [] {
+                    "ID KAPAL",
+                    "NAMA KAPAL",
+                    "STATUS KAPAL",
+                    "STATUS BAYAR",
+                    "TOTAL TAGIHAN (RP)"
+                }
+            ) {
+                boolean[] canEdit = new boolean [] {
+                    false, false, false, false, false
+                };
+        
+                public boolean isCellEditable(int rowIndex, int columnIndex) {
+                    return canEdit [columnIndex];
+                }
+            });
         scrollDashboard.setViewportView(tblDashboard);
-
         pnlDashboard.add(scrollDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 152, 950, 390));
-
         pnlMain.add(pnlDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 100, 1001, 640));
 
         getContentPane().add(pnlMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 65, 1065, 755));

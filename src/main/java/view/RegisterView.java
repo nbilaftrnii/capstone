@@ -50,12 +50,11 @@ public class RegisterView extends javax.swing.JFrame {
         btnNavBeranda.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavBeranda.setForeground(new java.awt.Color(255, 255, 255));
         btnNavBeranda.setText("Beranda");
-        btnNavBeranda.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavBeranda.setBorderPainted(false);
         btnNavBeranda.setContentAreaFilled(false);
-        btnNavBeranda.setOpaque(false);
-        btnNavBeranda.setFocusPainted(false);
         btnNavBeranda.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavBeranda.setFocusPainted(false);
+        btnNavBeranda.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavBeranda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavBerandaActionPerformed(evt);
@@ -66,12 +65,11 @@ public class RegisterView extends javax.swing.JFrame {
         btnNavLogin.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnNavLogin.setText("Login");
-        btnNavLogin.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavLogin.setBorderPainted(false);
         btnNavLogin.setContentAreaFilled(false);
-        btnNavLogin.setOpaque(false);
-        btnNavLogin.setFocusPainted(false);
         btnNavLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavLogin.setFocusPainted(false);
+        btnNavLogin.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavLoginActionPerformed(evt);
@@ -79,15 +77,15 @@ public class RegisterView extends javax.swing.JFrame {
         });
         getContentPane().add(btnNavLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 22, 90, 36));
 
+        btnNavRegistrasi.setBackground(new java.awt.Color(0, 140, 140));
         btnNavRegistrasi.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavRegistrasi.setForeground(new java.awt.Color(255, 255, 255));
-        btnNavRegistrasi.setBackground(new java.awt.Color(0, 140, 140));
         btnNavRegistrasi.setText("Registrasi");
         btnNavRegistrasi.setBorderPainted(false);
         btnNavRegistrasi.setContentAreaFilled(false);
-        btnNavRegistrasi.setOpaque(true);
-        btnNavRegistrasi.setFocusPainted(false);
         btnNavRegistrasi.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavRegistrasi.setFocusPainted(false);
+        btnNavRegistrasi.setOpaque(true);
         btnNavRegistrasi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavRegistrasiActionPerformed(evt);
@@ -98,12 +96,11 @@ public class RegisterView extends javax.swing.JFrame {
         btnNavKeluar.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         btnNavKeluar.setForeground(new java.awt.Color(255, 255, 255));
         btnNavKeluar.setText("Keluar");
-        btnNavKeluar.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavKeluar.setBorderPainted(false);
         btnNavKeluar.setContentAreaFilled(false);
-        btnNavKeluar.setOpaque(false);
-        btnNavKeluar.setFocusPainted(false);
         btnNavKeluar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnNavKeluar.setFocusPainted(false);
+        btnNavKeluar.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnNavKeluar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNavKeluarActionPerformed(evt);
@@ -168,15 +165,15 @@ public class RegisterView extends javax.swing.JFrame {
         txtConfirm.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(218, 226, 235)), javax.swing.BorderFactory.createEmptyBorder(8, 12, 8, 12)));
         pnlRegistrasi.add(txtConfirm, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 386, 340, 40));
 
+        btnDaftar.setBackground(new java.awt.Color(0, 140, 140));
         btnDaftar.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         btnDaftar.setForeground(new java.awt.Color(255, 255, 255));
-        btnDaftar.setBackground(new java.awt.Color(0, 140, 140));
         btnDaftar.setText("Daftar sebagai Operator");
         btnDaftar.setBorderPainted(false);
         btnDaftar.setContentAreaFilled(false);
-        btnDaftar.setOpaque(true);
-        btnDaftar.setFocusPainted(false);
         btnDaftar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnDaftar.setFocusPainted(false);
+        btnDaftar.setOpaque(true);
         btnDaftar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDaftarActionPerformed(evt);
@@ -186,19 +183,19 @@ public class RegisterView extends javax.swing.JFrame {
 
         btnKembali.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         btnKembali.setForeground(new java.awt.Color(27, 93, 145));
-        btnKembali.setBackground(new java.awt.Color(255, 255, 255));
         btnKembali.setText("Sudah punya akun? Login");
         btnKembali.setBorderPainted(false);
         btnKembali.setContentAreaFilled(false);
-        btnKembali.setOpaque(true);
-        btnKembali.setFocusPainted(false);
         btnKembali.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnKembali.setFocusPainted(false);
+        btnKembali.setOpaque(true);
         btnKembali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnKembaliActionPerformed(evt);
             }
         });
         pnlRegistrasi.add(btnKembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 506, 340, 32));
+
         getContentPane().add(pnlRegistrasi, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 84, 400, 556));
 
         lblBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bg_main.jpg"))); // NOI18N
