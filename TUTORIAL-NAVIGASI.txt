@@ -1,0 +1,33 @@
+FORM PER MENU (v7)
+==================
+Setiap menu sekarang punya JFrame sendiri (package view), lengkap dengan isinya:
+
+Admin    : AdminDashboardForm, AdminDermagaForm, AdminSlotForm, AdminTarifForm,
+           AdminBillingForm, AdminAkunForm, AdminLaporanForm
+Operator : OperatorDashboardForm, OperatorPendaftaranForm, OperatorDaftarKapalForm,
+           OperatorPenambatanForm, OperatorBongkarMuatForm, OperatorKargoForm
+
+ALUR APLIKASI
+- Halaman Awal -> Login -> Dashboard (Admin/Operator, tergantung peran).
+- Tombol menu di sidebar membuka form menu itu (form lama ditutup).
+- Tombol Keluar -> logout -> Halaman Awal.
+- Pengguna yang login disimpan di util.Sesi.pengguna.
+
+CARA EDIT TAMPILAN DI NETBEANS
+1. Buka package view, double-click form (mis. AdminDermagaForm), pilih tab Design.
+2. Tombol/field/tabel bisa digeser dan diubah propertinya seperti biasa.
+3. Tambah aksi tombol: double-click tombolnya, NetBeans bikin method handler,
+   isi kodenya di dalam method itu (JANGAN ngetik di blok biru "Generated Code").
+
+TOMBOL SIDEBAR
+Handler sudah terisi. Contoh di form Dermaga:
+    private void btnMenuSlotActionPerformed(...) {
+        new AdminSlotForm().setVisible(true);
+        dispose();
+    }
+Tampilan "tombol" (garis tepi + hover) dipasang lewat util.Navigasi.gayaSidebar(...)
+di method siapkan() tiap form.
+
+FILE LAMA
+AdminView.java dan OperatorView.java (dashboard satu jendela) sudah TIDAK dipakai
+Login lagi. Boleh dihapus kalau semua form baru sudah beres.

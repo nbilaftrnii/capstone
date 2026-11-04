@@ -1,0 +1,451 @@
+package view;
+
+import controller.OperatorController;
+import java.awt.Color;
+import java.awt.Font;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.util.List;
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.plaf.basic.BasicTabbedPaneUI;
+import javax.swing.table.DefaultTableModel;
+import model.Pengguna;
+import repository.DBConnection;
+
+/**
+ * ArgoPort | Operator Workspace - Lihat Daftar Kapal.
+ * Tampilan diatur lewat NetBeans Design (OperatorDaftarKapalForm.form); logika ada di luar blok GEN.
+ */
+public class OperatorDaftarKapalForm extends javax.swing.JFrame {
+    private final OperatorController controller = new OperatorController();
+
+    public OperatorDaftarKapalForm() {
+        initComponents();
+        util.Branding.pasangIkonJendela(this);
+        siapkan();
+        jalankan(this::muatDaftar, "Gagal memuat data");
+    }
+
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        pnlSidebar = new javax.swing.JPanel();
+        lblLogo = new javax.swing.JLabel();
+        lblBrand = new javax.swing.JLabel();
+        lblSection = new javax.swing.JLabel();
+        lblRole = new javax.swing.JLabel();
+        btnMenuDashboard = new javax.swing.JButton();
+        btnMenuPendaftaran = new javax.swing.JButton();
+        btnMenuDaftarKapal = new javax.swing.JButton();
+        btnMenuPenambatan = new javax.swing.JButton();
+        btnMenuBongkarMuat = new javax.swing.JButton();
+        btnMenuKargo = new javax.swing.JButton();
+        btnLogout = new javax.swing.JButton();
+        pnlHeader = new javax.swing.JPanel();
+        lblWelcome = new javax.swing.JLabel();
+        userLabel = new javax.swing.JLabel();
+        pnlMain = new javax.swing.JPanel();
+        lblHeading = new javax.swing.JLabel();
+        lblSubheading = new javax.swing.JLabel();
+        pnlDaftarKapal = new javax.swing.JPanel();
+        scrollDaftarKapal = new javax.swing.JScrollPane();
+        tblDaftarKapal = new javax.swing.JTable();
+        btnHapusKapal = new javax.swing.JButton();
+        btnMuatDaftar = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("ArgoPort | Operator Workspace - Lihat Daftar Kapal");
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        pnlSidebar.setBackground(new java.awt.Color(17, 39, 67));
+        pnlSidebar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logo_sidebar.png"))); // NOI18N
+        pnlSidebar.add(lblLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 31, 42, 42));
+
+        lblBrand.setFont(new java.awt.Font("SansSerif", 1, 23)); // NOI18N
+        lblBrand.setForeground(new java.awt.Color(255, 255, 255));
+        lblBrand.setText("ARGOPORT");
+        pnlSidebar.add(lblBrand, new org.netbeans.lib.awtextra.AbsoluteConstraints(74, 34, 175, 35));
+
+        lblSection.setFont(new java.awt.Font("SansSerif", 1, 10)); // NOI18N
+        lblSection.setForeground(new java.awt.Color(113, 145, 173));
+        lblSection.setText("OPERATIONS");
+        pnlSidebar.add(lblSection, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 105, 220, 20));
+
+        lblRole.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
+        lblRole.setForeground(new java.awt.Color(255, 255, 255));
+        lblRole.setText("Menu Operator");
+        pnlSidebar.add(lblRole, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 135, 200, 22));
+
+        btnMenuDashboard.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuDashboard.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuDashboard.setBackground(new java.awt.Color(28, 58, 95));
+        btnMenuDashboard.setText("Dashboard");
+        btnMenuDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDashboard.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuDashboard.setBorderPainted(true);
+        btnMenuDashboard.setContentAreaFilled(false);
+        btnMenuDashboard.setOpaque(true);
+        btnMenuDashboard.setFocusPainted(false);
+        btnMenuDashboard.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDashboard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuDashboardActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 190, 219, 39));
+
+        btnMenuPendaftaran.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuPendaftaran.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuPendaftaran.setBackground(new java.awt.Color(28, 58, 95));
+        btnMenuPendaftaran.setText("Pendaftaran Kapal Baru");
+        btnMenuPendaftaran.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuPendaftaran.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuPendaftaran.setBorderPainted(true);
+        btnMenuPendaftaran.setContentAreaFilled(false);
+        btnMenuPendaftaran.setOpaque(true);
+        btnMenuPendaftaran.setFocusPainted(false);
+        btnMenuPendaftaran.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuPendaftaran.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuPendaftaranActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuPendaftaran, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 238, 219, 39));
+
+        btnMenuDaftarKapal.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuDaftarKapal.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuDaftarKapal.setBackground(new java.awt.Color(0, 140, 160));
+        btnMenuDaftarKapal.setText("Lihat Daftar Kapal");
+        btnMenuDaftarKapal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuDaftarKapal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuDaftarKapal.setBorderPainted(true);
+        btnMenuDaftarKapal.setContentAreaFilled(false);
+        btnMenuDaftarKapal.setOpaque(true);
+        btnMenuDaftarKapal.setFocusPainted(false);
+        btnMenuDaftarKapal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuDaftarKapal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuDaftarKapalActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuDaftarKapal, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 286, 219, 39));
+
+        btnMenuPenambatan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuPenambatan.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuPenambatan.setBackground(new java.awt.Color(28, 58, 95));
+        btnMenuPenambatan.setText("Penambatan Kapal");
+        btnMenuPenambatan.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuPenambatan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuPenambatan.setBorderPainted(true);
+        btnMenuPenambatan.setContentAreaFilled(false);
+        btnMenuPenambatan.setOpaque(true);
+        btnMenuPenambatan.setFocusPainted(false);
+        btnMenuPenambatan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuPenambatan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuPenambatanActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuPenambatan, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 334, 219, 39));
+
+        btnMenuBongkarMuat.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuBongkarMuat.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuBongkarMuat.setBackground(new java.awt.Color(28, 58, 95));
+        btnMenuBongkarMuat.setText("Bongkar Muat Kargo");
+        btnMenuBongkarMuat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuBongkarMuat.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuBongkarMuat.setBorderPainted(true);
+        btnMenuBongkarMuat.setContentAreaFilled(false);
+        btnMenuBongkarMuat.setOpaque(true);
+        btnMenuBongkarMuat.setFocusPainted(false);
+        btnMenuBongkarMuat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuBongkarMuat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuBongkarMuatActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuBongkarMuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 382, 219, 39));
+
+        btnMenuKargo.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnMenuKargo.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenuKargo.setBackground(new java.awt.Color(28, 58, 95));
+        btnMenuKargo.setText("Kelola Data Kargo");
+        btnMenuKargo.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnMenuKargo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(52, 92, 140)));
+        btnMenuKargo.setBorderPainted(true);
+        btnMenuKargo.setContentAreaFilled(false);
+        btnMenuKargo.setOpaque(true);
+        btnMenuKargo.setFocusPainted(false);
+        btnMenuKargo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMenuKargo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuKargoActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnMenuKargo, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 430, 219, 39));
+
+        btnLogout.setBackground(new java.awt.Color(17, 39, 67));
+        btnLogout.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        btnLogout.setForeground(new java.awt.Color(220, 231, 241));
+        btnLogout.setText("Keluar");
+        btnLogout.setBorderPainted(false);
+        btnLogout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLogout.setFocusPainted(false);
+        btnLogout.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLogoutActionPerformed(evt);
+            }
+        });
+        pnlSidebar.add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 735, 205, 35));
+
+        getContentPane().add(pnlSidebar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 255, 820));
+
+        pnlHeader.setBackground(new java.awt.Color(255, 255, 255));
+        pnlHeader.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblWelcome.setFont(new java.awt.Font("SansSerif", 1, 10)); // NOI18N
+        lblWelcome.setForeground(new java.awt.Color(105, 121, 140));
+        lblWelcome.setText("OPERATOR WORKSPACE");
+        pnlHeader.add(lblWelcome, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 20, 300, 18));
+
+        userLabel.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
+        userLabel.setForeground(new java.awt.Color(37, 54, 74));
+        userLabel.setText("Operator");
+        userLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        pnlHeader.add(userLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(705, 18, 340, 25));
+
+        getContentPane().add(pnlHeader, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 0, 1065, 65));
+
+        pnlMain.setBackground(new java.awt.Color(246, 248, 251));
+        pnlMain.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblHeading.setFont(new java.awt.Font("SansSerif", 1, 27)); // NOI18N
+        lblHeading.setForeground(new java.awt.Color(24, 41, 61));
+        lblHeading.setText("Lihat Daftar Kapal");
+        pnlMain.add(lblHeading, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 20, 800, 40));
+
+        lblSubheading.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
+        lblSubheading.setForeground(new java.awt.Color(112, 127, 145));
+        lblSubheading.setText("Kelola dan pantau data lihat daftar kapal.");
+        pnlMain.add(lblSubheading, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 62, 900, 25));
+
+
+        pnlDaftarKapal.setBackground(new java.awt.Color(255, 255, 255));
+        pnlDaftarKapal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        scrollDaftarKapal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 231, 238)));
+
+        tblDaftarKapal.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
+        tblDaftarKapal.setGridColor(new java.awt.Color(237, 241, 245));
+        tblDaftarKapal.setRowHeight(30);
+        tblDaftarKapal.setForeground(new java.awt.Color(43, 57, 73));
+        tblDaftarKapal.setSelectionBackground(new java.awt.Color(222, 237, 249));
+        tblDaftarKapal.setSelectionForeground(new java.awt.Color(25, 53, 78));
+
+        tblDaftarKapal.setModel(new javax.swing.table.DefaultTableModel(
+                new Object [][] {
+        
+                },
+                new String [] {
+                    "ID KAPAL",
+                    "NAMA KAPAL",
+                    "JENIS",
+                    "GT",
+                    "DRAF",
+                    "KEDATANGAN",
+                    "STATUS",
+                    "DERMAGA",
+                    "WAKTU SANDAR"
+                }
+            ) {
+                boolean[] canEdit = new boolean [] {
+                    false, false, false, false, false, false, false, false, false
+                };
+        
+                public boolean isCellEditable(int rowIndex, int columnIndex) {
+                    return canEdit [columnIndex];
+                }
+            });
+        scrollDaftarKapal.setViewportView(tblDaftarKapal);
+        pnlDaftarKapal.add(scrollDaftarKapal, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 961, 420));
+
+        btnHapusKapal.setBackground(new java.awt.Color(253, 236, 234));
+        btnHapusKapal.setFont(new java.awt.Font("SansSerif", 1, 11)); // NOI18N
+        btnHapusKapal.setForeground(new java.awt.Color(176, 48, 38));
+        btnHapusKapal.setText("Hapus kapal (status Antre)");
+        btnHapusKapal.setBorderPainted(false);
+        btnHapusKapal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnHapusKapal.setFocusPainted(false);
+        btnHapusKapal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnHapusKapalActionPerformed(evt);
+            }
+        });
+        pnlDaftarKapal.add(btnHapusKapal, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 220, 36));
+
+        btnMuatDaftar.setBackground(new java.awt.Color(235, 241, 247));
+        btnMuatDaftar.setFont(new java.awt.Font("SansSerif", 1, 11)); // NOI18N
+        btnMuatDaftar.setForeground(new java.awt.Color(43, 73, 101));
+        btnMuatDaftar.setText("Muat ulang");
+        btnMuatDaftar.setBorderPainted(false);
+        btnMuatDaftar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMuatDaftar.setFocusPainted(false);
+        btnMuatDaftar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMuatDaftarActionPerformed(evt);
+            }
+        });
+        pnlDaftarKapal.add(btnMuatDaftar, new org.netbeans.lib.awtextra.AbsoluteConstraints(861, 460, 120, 36));
+
+        pnlMain.add(pnlDaftarKapal, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 100, 1001, 640));
+
+        getContentPane().add(pnlMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 65, 1065, 755));
+
+        pack();
+        setLocationRelativeTo(null);
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void btnMenuDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuDashboardActionPerformed
+        new OperatorDashboardForm().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnMenuDashboardActionPerformed
+
+    private void btnMenuPendaftaranActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuPendaftaranActionPerformed
+        new OperatorPendaftaranForm().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnMenuPendaftaranActionPerformed
+
+    private void btnMenuDaftarKapalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuDaftarKapalActionPerformed
+        // sudah berada di menu ini
+    }//GEN-LAST:event_btnMenuDaftarKapalActionPerformed
+
+    private void btnMenuPenambatanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuPenambatanActionPerformed
+        new OperatorPenambatanForm().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnMenuPenambatanActionPerformed
+
+    private void btnMenuBongkarMuatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuBongkarMuatActionPerformed
+        new OperatorBongkarMuatForm().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnMenuBongkarMuatActionPerformed
+
+    private void btnMenuKargoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuKargoActionPerformed
+        new OperatorKargoForm().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnMenuKargoActionPerformed
+
+    private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
+        repository.DBConnection.logout();
+        util.Sesi.pengguna = null;
+        new WelcomeView().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_btnLogoutActionPerformed
+
+    private void btnHapusKapalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusKapalActionPerformed
+        jalankan(this::hapusKapal, "Kapal tidak dapat dihapus");
+    }//GEN-LAST:event_btnHapusKapalActionPerformed
+
+    private void btnMuatDaftarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMuatDaftarActionPerformed
+        jalankan(this::muatDaftar, "Gagal memuat data");
+    }//GEN-LAST:event_btnMuatDaftarActionPerformed
+
+    // ---------- util ----------
+    private interface Aksi { void jalankan() throws Exception; }
+
+    private void jalankan(Aksi a, String judulError) {
+        try {
+            a.jalankan();
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, ex.getMessage(), judulError, JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    private void isi(JTable tabel, List<Object[]> baris) {
+        DefaultTableModel m = (DefaultTableModel) tabel.getModel();
+        m.setRowCount(0);
+        for (Object[] r : baris) m.addRow(r);
+    }
+
+    private String dipilih(JTable tabel, int kolom, String pesan) throws Exception {
+        int r = tabel.getSelectedRow();
+        if (r < 0) throw new Exception(pesan);
+        return String.valueOf(tabel.getModel().getValueAt(tabel.convertRowIndexToModel(r), kolom));
+    }
+
+    private double angka(JTextField f, String nama) throws Exception {
+        try {
+            return Double.parseDouble(f.getText().trim().replace(',', '.'));
+        } catch (NumberFormatException ex) {
+            throw new Exception(nama + " harus berupa angka.");
+        }
+    }
+
+    private boolean konfirmasi(String pesan) {
+        return JOptionPane.showConfirmDialog(this, pesan, "Konfirmasi", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION;
+    }
+
+    private void info(String pesan) {
+        JOptionPane.showMessageDialog(this, pesan, "Informasi", JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    private void gayaTabel(JTable t, JScrollPane sp) {
+        t.getTableHeader().setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, 10));
+        t.getTableHeader().setBackground(new java.awt.Color(246, 248, 251));
+        sp.getViewport().setBackground(java.awt.Color.WHITE);
+    }
+
+    // ---------- inisialisasi (di luar Design) ----------
+    private void siapkan() {
+        if (util.Sesi.pengguna != null) userLabel.setText(util.Sesi.pengguna.getNama() + "   \u00b7   Operator");
+        util.Navigasi.gayaSidebar(btnMenuDashboard, btnMenuPendaftaran, btnMenuDaftarKapal, btnMenuPenambatan, btnMenuBongkarMuat, btnMenuKargo);
+        gayaTabel(tblDaftarKapal, scrollDaftarKapal);
+    }
+
+    private void muatDaftar() throws Exception { isi(tblDaftarKapal, controller.getDaftarKapal()); }
+
+    private void hapusKapal() throws Exception {
+        String id = dipilih(tblDaftarKapal, 0, "Pilih kapal dari tabel terlebih dahulu.");
+        if (!konfirmasi("Hapus kapal " + id + "?")) return;
+        controller.hapusKapal(id);
+        info("Data kapal berhasil dihapus.");
+        
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnHapusKapal;
+    private javax.swing.JButton btnLogout;
+    private javax.swing.JButton btnMenuBongkarMuat;
+    private javax.swing.JButton btnMenuDaftarKapal;
+    private javax.swing.JButton btnMenuDashboard;
+    private javax.swing.JButton btnMenuKargo;
+    private javax.swing.JButton btnMenuPenambatan;
+    private javax.swing.JButton btnMenuPendaftaran;
+    private javax.swing.JButton btnMuatDaftar;
+    private javax.swing.JLabel lblBrand;
+    private javax.swing.JLabel lblHeading;
+    private javax.swing.JLabel lblLogo;
+    private javax.swing.JLabel lblRole;
+    private javax.swing.JLabel lblSection;
+    private javax.swing.JLabel lblSubheading;
+    private javax.swing.JLabel lblWelcome;
+    private javax.swing.JPanel pnlDaftarKapal;
+    private javax.swing.JPanel pnlHeader;
+    private javax.swing.JPanel pnlMain;
+    private javax.swing.JPanel pnlSidebar;
+    private javax.swing.JScrollPane scrollDaftarKapal;
+    private javax.swing.JTable tblDaftarKapal;
+    private javax.swing.JLabel userLabel;
+    // End of variables declaration//GEN-END:variables
+}
