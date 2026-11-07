@@ -30,7 +30,7 @@
 
 ## 👥 **Profil Anggota**
 
-**Kelompok 22**
+**Kelompok 24 ARGO**
 
 | **Nama** | **NIM** | **Kelas** | **GitHub Username** |
 |-----------|----------|------------|----------------------|
