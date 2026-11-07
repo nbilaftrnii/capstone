@@ -14,7 +14,6 @@
 
 ## 📚 **Daftar Isi**
 
-- [👥 Profil Anggota](#-profil-anggota)
 - [📌 Deskripsi Project](#-deskripsi-project)
 - [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)
 - [⚙️ Fitur Program](#️-fitur-program)
@@ -25,22 +24,9 @@
 - [📁 Struktur Project](#-struktur-project)
 - [💻 Cara Penggunaan Program](#-cara-penggunaan-program)
 - [📅 Informasi Tambahan](#-informasi-tambahan)
+- [👥 Profil Anggota](#-profil-anggota)
 
 ---
-
-## 👥 **Profil Anggota**
-
-**Kelompok 24 ARGO**
-
-| **Nama** | **NIM** | **Kelas** | **GitHub Username** |
-|-----------|----------|------------|----------------------|
-| Mohammed Rifqy Syahdi | 2509116037 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-rifqysyahdi-black?logo=github&style=flat-square)](https://github.com/rifqysyahdi) |
-| Kardila Varani Barutu | 2509116009 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-kardilabarutu29-black?logo=github&style=flat-square)](https://github.com/kardilabarutu29-lang) |
-| Zahra Masyita | 2509116015 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-zahramaysita-black?logo=github&style=flat-square)](https://github.com/zahramaysita) |
-| Nabila Fitriani | 2509116063 | Sistem Informasi B '25 | [![GitHub](https://img.shields.io/badge/-nbilaftrnii-black?logo=github&style=flat-square)](https://github.com/nbilaftrnii) |
-
----
-
 ## 📌 **Deskripsi Project**
 
 Program **ArgoPort Systems** merupakan aplikasi berbasis **Java Swing** yang dirancang untuk membantu pengelolaan kegiatan **operasional pelabuhan** secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
@@ -77,9 +63,9 @@ e. Mendukung peningkatan kualitas pelayanan operasional pelabuhan melalui pemanf
 
 ---
 
-## ⚙️ FITUR PROGRAM
+## ⚙️ FITUR UTAMA PROGRAM
 
-ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan operasional pelabuhan, mulai dari pengelolaan data kapal, penambatan kapal, penyimpanan kargo, hingga administrasi dan pelaporan aktivitas pelabuhan.
+ARGOPORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan operasional pelabuhan, mulai dari pengelolaan data kapal, penambatan kapal, penyimpanan kargo, hingga administrasi dan pelaporan aktivitas pelabuhan.
 
 ### 🧑‍💼 Fitur Untuk Admin
 
@@ -138,30 +124,19 @@ ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan opera
   Operator dapat melihat, mengubah, dan menghapus data kargo yang telah terdaftar. Operator juga dapat memperbarui informasi kargo, seperti nama barang dan berat barang (ton), sesuai dengan kondisi terbaru.
 
 ---
+## 🗂️ **Tech Stack**
 
-## 🧱 PENERAPAN OOP (Object-Oriented Programming)
+### Bahasa
 
-Program ARGO PORT SYSTEM menerapkan** 4 pilar utama** Object-Oriented Programming (OOP) untuk membangun struktur kode yang terorganisir, mempermudah pengelolaan data, serta meningkatkan fleksibilitas dan pemeliharaan program.
-
-1. **Encapsulation**
-   
-   Setiap entitas seperti Pengguna, Admin, Operator, Kapal, Dermaga, Kargo, SlotGudang, dan Retribusi menggunakan atribut private serta method getter dan setter.
-   
-2. **Inheritance**
-
-   Class Admin dan Operator mewarisi atribut serta method dari class Pengguna menggunakan keyword extends.
-   
-3. **Abstraction**
-
-   Menyederhanakan proses pengelolaan data melalui method tertentu tanpa menampilkan detail implementasinya.   
-
-4. **Polymorphism**
-
-   Method mouseEntered() dan mouseExited() pada MouseAdapter digunakan untuk mengatur perubahan tampilan tombol saat kursor masuk dan keluar.
-   
 ---
+### Data
 
-## 🗂️Library 
+---
+### Framework
+
+---
+### Library
+
 Program ini menerapkan **library**:
 
 1. AbsoluteLayout-RELEASE260.jar – digunakan oleh NetBeans untuk mengatur tata letak (layout) komponen GUI secara absolut.
@@ -183,7 +158,9 @@ Program ini menerapkan **library**:
 17. slf4j-api-2.0.13.jar – antarmuka umum untuk sistem logging seperti Logback agar lebih konsisten dan modular.
 
 ---
-## 📊 **Flowchart**
+## 💻 **Perancangan Sistem**
+
+### 📊 **Flowchart**
 
 ### 1. Halaman Utama
 <img width="2408" height="3768" alt="image" src="https://github.com/user-attachments/assets/bcf2782a-4d9c-4413-996e-1e45419ef0d2" />
@@ -250,7 +227,7 @@ Program ini menerapkan **library**:
 📎 [Klik di sini untuk melihat Flowchart Lengkap](https://app.diagrams.net/?src=about#G1l_0vRv375RYu1bvGWVfsu-FzTx-2HyA5#%7B%22pageId%22%3A%22YSO67Ypj2ylAbOuhdHeY%22%7D)
 
 ---
-## 🗂️ **ERD**
+### 🗂️ **ERD**
 
 **Entitas utama sistem:**
 - Pengguna
@@ -285,13 +262,34 @@ Program ini menerapkan **library**:
 <img width="1190" height="827" alt="image" src="https://github.com/user-attachments/assets/27a42f96-2cda-4588-9dc9-0fc2658962c0" />
 
 ---
-## 🧩 **Use Case Diagram**
+### 🧩 **Use Case Diagram**
 >"Berikut merupakan ilustrasi hubungan antara aktor (Admin dan Operator) dengan fungsionalitas utama dalam sistem informasi manajemen operasional pelabuhan ArgoPort."
 
 <img width="5572" height="11004" alt="image" src="https://github.com/user-attachments/assets/5cf4f856-a355-47c8-a407-ded992668b39" />
 
 ---
 ## 📁 **Struktur Project**
+
+---
+## 🧱 PENERAPAN OOP (Object-Oriented Programming)
+
+Program ARGO PORT SYSTEM menerapkan** 4 pilar utama** Object-Oriented Programming (OOP) untuk membangun struktur kode yang terorganisir, mempermudah pengelolaan data, serta meningkatkan fleksibilitas dan pemeliharaan program.
+
+1. **Encapsulation**
+   
+   Setiap entitas seperti Pengguna, Admin, Operator, Kapal, Dermaga, Kargo, SlotGudang, dan Retribusi menggunakan atribut private serta method getter dan setter.
+   
+2. **Inheritance**
+
+   Class Admin dan Operator mewarisi atribut serta method dari class Pengguna menggunakan keyword extends.
+   
+3. **Abstraction**
+
+   Menyederhanakan proses pengelolaan data melalui method tertentu tanpa menampilkan detail implementasinya.   
+
+4. **Polymorphism**
+
+   Method mouseEntered() dan mouseExited() pada MouseAdapter digunakan untuk mengatur perubahan tampilan tombol saat kursor masuk dan keluar.
 
 ---
 
@@ -452,6 +450,19 @@ Sebelum menjalankan program **Sistem Informasi Manajemen Operasional Pelabuhan A
 
 - **🎨 Canva**  
   Digunakan untuk perancangan desain antarmuka, presentasi, serta aset visual pendukung laporan proyek.
+
+---
+## 👥 **Profil Anggota**
+
+**Kelompok 24 ARGO**
+
+| **Nama** | **NIM** | **Kelas** | **GitHub Username** |
+|-----------|----------|------------|----------------------|
+| Mohammed Rifqy Syahdi | 2509116037 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-rifqysyahdi-black?logo=github&style=flat-square)](https://github.com/rifqysyahdi) |
+| Kardila Varani Barutu | 2509116009 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-kardilabarutu29-black?logo=github&style=flat-square)](https://github.com/kardilabarutu29-lang) |
+| Zahra Masyita | 2509116015 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-zahramaysita-black?logo=github&style=flat-square)](https://github.com/zahramaysita) |
+| Nabila Fitriani | 2509116063 | Sistem Informasi B '25 | [![GitHub](https://img.shields.io/badge/-nbilaftrnii-black?logo=github&style=flat-square)](https://github.com/nbilaftrnii) |
+
 
 ---
 
