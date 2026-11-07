@@ -127,7 +127,7 @@ ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan opera
 
 **- Proses Penambatan Kapal**
  
-    Operator dapat mengelola proses penambatan kapal dengan menghubungkan kapal yang berstatus antre ke dermaga yang masih tersedia. Hal ini bertujuan untuk menentukan penempatan kapal berdasarkan ketersediaan dermaga.
+  Operator dapat mengelola proses penambatan kapal dengan menghubungkan kapal yang berstatus antre ke dermaga yang masih tersedia. Hal ini bertujuan untuk menentukan penempatan kapal berdasarkan ketersediaan dermaga.
 
 **- Pengelolaan Kargo dan Penyimpanan Barang**
  
@@ -226,8 +226,6 @@ Relasi utama:
 📌 **ERD RELATIONAL**
 
 <img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
-
-📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
 ---
 
