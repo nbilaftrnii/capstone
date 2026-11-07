@@ -43,11 +43,11 @@
 
 ## 📌 **Deskripsi Project**
 
-Program ArgoPort Systems merupakan aplikasi berbasis Java Swing yang dirancang untuk membantu pengelolaan kegiatan operasional pelabuhan secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
+Program **ArgoPort Systems** merupakan aplikasi berbasis Java Swing yang dirancang untuk membantu pengelolaan kegiatan **operasional pelabuhan** secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
 
-Admin memiliki peran dalam mengelola data operasional pelabuhan, seperti data pengguna, kapal, dermaga, jadwal sandar, kargo, slot gudang, serta retribusi. Admin juga dapat memantau aktivitas kapal dan mengelola pencatatan biaya layanan pelabuhan.
+**Admin** memiliki peran dalam mengelola data operasional pelabuhan, seperti data pengguna, kapal, dermaga, jadwal sandar, kargo, slot gudang, serta retribusi. Admin juga dapat memantau aktivitas kapal dan mengelola pencatatan biaya layanan pelabuhan.
 
-Sementara itu, operator berperan dalam menjalankan kegiatan operasional, seperti mengelola data kapal, melihat jadwal sandar, mencatat data kargo, serta mengatur penyimpanan barang sesuai dengan hak akses yang diberikan.
+Sementara itu, **operator** berperan dalam menjalankan kegiatan operasional, seperti mengelola data kapal, melihat jadwal sandar, mencatat data kargo, serta mengatur penyimpanan barang sesuai dengan hak akses yang diberikan.
 
 Seluruh data pada program ini tersimpan dalam basis data relasional yang saling terhubung antarentitas, seperti pengguna, admin, operator, dermaga, kapal, jadwal_sandar, kargo, slot_gudang, dan retribusi, sehingga mendukung pengelolaan informasi operasional pelabuhan secara terintegrasi dan terstruktur.
 
@@ -58,14 +58,11 @@ Sistem ini dilengkapi dengan:
 ---
 
 ## 🎯 **Tujuan Pengembangan**
+
 a. Meningkatkan efektivitas dan efisiensi pengelolaan aktivitas dermaga, mulai dari proses pendataan kapal, pengelolaan jadwal sandar, hingga kegiatan bongkar muat kargo.
-
 b. Meningkatkan transparansi dan akurasi pengelolaan data kapal serta distribusi kargo melalui sistem informasi berbasis basis data terintegrasi.
-
 c. Mempermudah proses pemantauan dan pengawasan aktivitas operasional dermaga guna mendukung kelancaran proses pengiriman dan penerimaan kargo melalui jalur laut.
-
 d. Mengoptimalkan pengelolaan informasi dan administrasi dermaga agar lebih terstruktur, sistematis, dan meminimalkan kesalahan pencatatan data.
-
 e. Mendukung peningkatan kualitas pelayanan operasional pelabuhan melalui pemanfaatan teknologi informasi yang efektif dan terintegrasi.
 
 ---
@@ -200,12 +197,12 @@ Relasi utama:
 
 📌 **ERD LOGICAL**
 
-<img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
+<img width="971" height="746" alt="image" src="https://github.com/user-attachments/assets/ae0448c7-2ac9-407e-a449-be52be5524c0" />
 
 
 📌 **ERD RELATIONAL**
 
-<img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
+![Uploading image.png…]()
 
 📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
