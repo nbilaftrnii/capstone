@@ -253,16 +253,16 @@ Program ini menerapkan **library**:
 ---
 ## 🗂️ **ERD**
 
-Entitas utama sistem:
-- **Pengguna**
-- **Admin**
-- **Operator**
-- **Kapal**
-- **Dermaga**
-- **Kargo**
-- **Slot Gudang**
-- **Retribusi**
-- **Laporan**
+**Entitas utama sistem:**
+- Pengguna
+- Admin
+- Operator
+- Kapal
+- Dermaga
+- Kargo
+- Slot Gudang
+- Retribusi
+- Laporan
 
 **Relasi utama:**
 - `Pengguna` ↔ `Admin` (1:1)
@@ -278,12 +278,12 @@ Entitas utama sistem:
 
 📌 **ERD LOGICAL**
 
-<img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
+<img width="971" height="746" alt="image" src="https://github.com/user-attachments/assets/04de516b-e0cb-419c-b345-35e94ef1eee6" />
 
 
 📌 **ERD RELATIONAL**
 
-<img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
+<img width="1190" height="827" alt="image" src="https://github.com/user-attachments/assets/27a42f96-2cda-4588-9dc9-0fc2658962c0" />
 
 ---
 ## 🧩 **Use Case Diagram**
@@ -291,17 +291,10 @@ Entitas utama sistem:
 
 <img width="5572" height="11004" alt="image" src="https://github.com/user-attachments/assets/5cf4f856-a355-47c8-a407-ded992668b39" />
 
+---
 ## 📁 **Struktur Project**
 
-<img width="452" height="812" alt="image" src="https://github.com/user-attachments/assets/50310517-14de-4d33-85bd-47991befb19b" />
-
-<img width="319" height="924" alt="image" src="https://github.com/user-attachments/assets/c4215c3d-5664-45c7-b8c7-2ace7e0e3449" />
-
-<img width="321" height="914" alt="image" src="https://github.com/user-attachments/assets/2fb331d9-1e22-4464-bfda-2b4836114a09" />
-
-<img width="315" height="952" alt="image" src="https://github.com/user-attachments/assets/f0afb42b-ec14-44ba-9544-6e7dceeb8fb3" />
-
-<img width="316" height="166" alt="image" src="https://github.com/user-attachments/assets/31f7ad32-7007-491a-a8db-931af3162701" />
+---
 
 ## 💻 **Cara Penggunaan Program**
 
