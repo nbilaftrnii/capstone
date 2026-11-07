@@ -53,7 +53,13 @@ Seluruh data pada program ini tersimpan dalam basis data relasional yang saling 
 
 
 Sistem ini dilengkapi dengan:
-- 
+
+- Fitur pendaftaran dan pengelolaan data kapal.
+- Fitur penjadwalan dan proses penambatan kapal sesuai ketersediaan dermaga.
+- Fitur pencatatan dan pengelolaan data kargo serta penyimpanan barang di gudang.
+- Fitur perhitungan dan pemantauan retribusi kapal.
+- Fitur pemantauan laporan serta ekspor laporan ke format PDF dan Excel.
+- Fitur admin dan operator dengan pembagian hak akses sesuai tugas masing-masing.
 
 ---
 
