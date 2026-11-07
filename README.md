@@ -140,23 +140,25 @@ ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan opera
 ---
 
 ## 🧱 PENERAPAN OOP (Object-Oriented Programming)
-Program ini menerapkan **5 Pilar OOP**:
-1. **Encapsulation** → Setiap entitas seperti *Admin*, *Pengaduan*, *RT*, dan *Tips* dibuat dalam class terpisah dengan atribut privat dan method publik.
+
+Program ARGO PORT SYSTEM menerapkan** 4 pilar utama** Object-Oriented Programming (OOP) untuk membangun struktur kode yang terorganisir, mempermudah pengelolaan data, serta meningkatkan fleksibilitas dan pemeliharaan program.
+
+1. **Encapsulation**
    
-    <img width="775" height="70" alt="image" src="https://github.com/user-attachments/assets/a1649291-ccfb-4ae8-9f25-a58c3250c488" />
-
-2. **Inheritance** → Class `Pengaduan_Faskes` dan `Pengaduan_Masyarakat` mewarisi atribut umum dari class `Pengaduan`.
-   <img width="790" height="97" alt="image" src="https://github.com/user-attachments/assets/3f64c0c7-99dd-464d-8a0d-cae23039c164" />
-
-3. **Abstraction** → Fungsi-fungsi pengelolaan data (CRUD) disembunyikan di balik antarmuka database.
-   <img width="698" height="256" alt="image" src="https://github.com/user-attachments/assets/dd1b8307-c133-46c2-80c9-d4ff2e312b98" />
-
-4. **Polymorphism** → Method `tampilkanInfo()` digunakan secara berbeda pada setiap subclass pengaduan.
-   <img width="634" height="63" alt="image" src="https://github.com/user-attachments/assets/eb85c5c4-044d-4718-b772-c3427d1dde5f" />
-
+   Setiap entitas seperti Pengguna, Admin, Operator, Kapal, Dermaga, Kargo, SlotGudang, dan Retribusi menggunakan atribut private serta method getter dan setter.
    
-5. **Interface** → Interface `DatabaseOperation` diterapkan untuk mengatur method standar (insert, update, delete, select).
-   <img width="372" height="171" alt="image" src="https://github.com/user-attachments/assets/25830025-fa69-4a6d-80c0-4d76b36e95ee" />
+2. **Inheritance**
+
+   Class Admin dan Operator mewarisi atribut serta method dari class Pengguna menggunakan keyword extends.
+   
+3. **Abstraction**
+
+   Menyederhanakan proses pengelolaan data melalui method tertentu tanpa menampilkan detail implementasinya.   
+
+4. **Polymorphism**
+
+   Method mouseEntered() dan mouseExited() pada MouseAdapter digunakan untuk mengatur perubahan tampilan tombol saat kursor masuk dan keluar.
+   
 ---
 
 ## 🗂️Library 
@@ -182,8 +184,7 @@ Program ini menerapkan **library**:
 16. protobuf-java-3.25.1.jar – digunakan untuk serialisasi data dalam format biner yang efisien.
 17. slf4j-api-2.0.13.jar – antarmuka umum untuk sistem logging seperti Logback agar lebih konsisten dan modular.
 
-
-
+---
 ## 📊 **Flowchart**
 
 ### 1. Halaman Utama
