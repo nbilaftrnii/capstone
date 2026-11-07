@@ -37,44 +37,85 @@
 | Mohammed Rifqy Syahdi | 2509116037 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-rifqysyahdi-black?logo=github&style=flat-square)](https://github.com/rifqysyahdi) |
 | Kardila Varani Barutu | 2509116009 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-kardilabarutu29-black?logo=github&style=flat-square)](https://github.com/kardilabarutu29-lang) |
 | Zahra Masyita | 2509116015 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-zahramaysita-black?logo=github&style=flat-square)](https://github.com/zahramaysita) |
-| Nabila Fitriani | 2509116063 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-nbilaftrnii-black?logo=github&style=flat-square)](https://github.com/nbilaftrnii) |
+| Nabila Fitriani | 2509116063 | Sistem Informasi B '25 | [![GitHub](https://img.shields.io/badge/-nbilaftrnii-black?logo=github&style=flat-square)](https://github.com/nbilaftrnii) |
 
 ---
 
 ## 📌 **Deskripsi Project**
 
-Pelayanan publik yang **efektif, cepat tanggap, dan transparan** merupakan hal penting dalam meningkatkan kesejahteraan masyarakat. Namun, di banyak daerah terutama wilayah perbatasan proses pengaduan masyarakat masih dilakukan secara manual melalui surat, kotak saran, atau penyampaian langsung.  
-Kondisi ini menyebabkan proses penanganan keluhan menjadi lambat, data mudah hilang, dan menyulitkan pihak berwenang dalam melakukan tindak lanjut laporan.
+Program ArgoPort Systems merupakan aplikasi berbasis Java Swing yang dirancang untuk membantu pengelolaan kegiatan operasional pelabuhan secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
 
-Sebagai solusi, dikembangkanlah **Sistem Informasi Pengaduan Layanan Kesehatan** berbasis online yang memungkinkan masyarakat menyampaikan pengaduan kapan saja dan di mana saja tanpa batas waktu dan jarak. Sistem ini menyimpan seluruh data secara **terpusat** menggunakan **basis data relasional (DB_HELIA)** sehingga setiap laporan dapat ditangani dengan lebih cepat, transparan, dan terukur.
+Admin memiliki peran dalam mengelola data operasional pelabuhan, seperti data pengguna, kapal, dermaga, jadwal sandar, kargo, slot gudang, serta retribusi. Admin juga dapat memantau aktivitas kapal dan mengelola pencatatan biaya layanan pelabuhan.
+
+Sementara itu, operator berperan dalam menjalankan kegiatan operasional, seperti mengelola data kapal, melihat jadwal sandar, mencatat data kargo, serta mengatur penyimpanan barang sesuai dengan hak akses yang diberikan.
+
+Seluruh data pada program ini tersimpan dalam basis data relasional yang saling terhubung antarentitas, seperti pengguna, admin, operator, dermaga, kapal, jadwal_sandar, kargo, slot_gudang, dan retribusi, sehingga mendukung pengelolaan informasi operasional pelabuhan secara terintegrasi dan terstruktur.
+
 
 Sistem ini dilengkapi dengan:
-- Fitur pengaduan masyarakat dan pengaduan fasilitas kesehatan.  
-- Fitur log status untuk memantau perkembangan laporan.  
-- Fitur tips otomatis yang memberikan saran kesehatan sesuai keluhan.  
-- Fitur admin dan ketua RT untuk mengelola dan memverifikasi pengaduan masyarakat.  
+- 
 
 ---
 
 ## 🎯 **Tujuan Pengembangan**
-a. Meningkatkan efektivitas pelayanan publik dalam proses penanganan dan tindak lanjut pengaduan masyarakat di sektor kesehatan.  
-b. Meningkatkan transparansi dan akuntabilitas dalam pengelolaan data pengaduan melalui sistem basis data terintegrasi.  
-c. Mendukung partisipasi aktif masyarakat dalam pemantauan dan evaluasi pelayanan kesehatan di lingkungannya.
+a. Meningkatkan efektivitas dan efisiensi pengelolaan aktivitas dermaga, mulai dari proses pendataan kapal, pengelolaan jadwal sandar, hingga kegiatan bongkar muat kargo.
+
+b. Meningkatkan transparansi dan akurasi pengelolaan data kapal serta distribusi kargo melalui sistem informasi berbasis basis data terintegrasi.
+
+c. Mempermudah proses pemantauan dan pengawasan aktivitas operasional dermaga guna mendukung kelancaran proses pengiriman dan penerimaan kargo melalui jalur laut.
+
+d. Mengoptimalkan pengelolaan informasi dan administrasi dermaga agar lebih terstruktur, sistematis, dan meminimalkan kesalahan pencatatan data.
+
+e. Mendukung peningkatan kualitas pelayanan operasional pelabuhan melalui pemanfaatan teknologi informasi yang efektif dan terintegrasi.
 
 ---
 
 ## ⚙️ FITUR PROGRAM
 
-### 🧑‍💼 Admin
-- Melihat seluruh laporan yang masuk dari masyarakat.
-- Memverifikasi dan memperbarui status laporan (*Menunggu, Diproses, Selesai*).
-- Mengelola data pengguna dan wilayah kerja.
-- Menyediakan riwayat dan statistik pengaduan.
+ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan operasional pelabuhan, mulai dari pengelolaan data kapal, penambatan kapal, penyimpanan kargo, hingga administrasi dan pelaporan aktivitas pelabuhan.
 
-### 👥 Ketua RT
-- Mengelola laporan dari wilayahnya.
-- Menjadi penghubung antara masyarakat dan admin.
-- Memantau perkembangan tindak lanjut laporan.
+### 🧑‍💼 Fitur Untuk Admin
+
+**- Login**
+  Admin dapat masuk ke dalam sistem menggunakan akun yang telah terdaftar untuk mengakses fitur pengelolaan sistem sesuai hak aksesnya.
+
+**- Manajemen Akun Operator**
+  Admin dapat melihat dan menghapus akun operator yang telah terdaftar dalam sistem.
+
+**- Lihat Billing dan Pembayaran**
+  Admin dapat melihat informasi tagihan serta riwayat pembayaran retribusi kapal yang menggunakan layanan tambat di pelabuhan.
+
+**- Manajemen, Pemantauan, dan Ekspor Laporan**
+  Admin dapat melihat, mengelola, dan memantau laporan aktivitas operasional pelabuhan, termasuk perkembangan dan status penanganannya. Admin juga dapat mengekspor laporan ke dalam format Excel.
+
+**- Manajemen Data Dermaga (CRUD)**
+  Admin dapat menambahkan, melihat, mengubah, dan menghapus data dermaga yang meliputi kode dermaga, nama dermaga, kapasitas, serta status ketersediaan dermaga.
+
+**- Manajemen Data Slot Gudang (CRUD)**
+  Admin dapat mengelola data slot gudang, meliputi penambahan, pengubahan, penghapusan, dan pemantauan informasi kode blok, kapasitas, serta operator yang bertanggung jawab.
+
+**- Manajemen Tarif**
+  Admin dapat melihat, memantau, dan menyimpan informasi tarif operasional pelabuhan, meliputi tarif tambat kapal per hari dan tarif muatan barang per ton.
+
+### 👷 Fitur Untuk Operator
+
+**- Login**
+  Operator dapat masuk ke dalam sistem menggunakan akun yang telah didaftarkan oleh admin untuk mengakses fitur operasional pelabuhan sesuai hak aksesnya.
+
+**- Pemantauan Data Kapal**
+  Operator dapat melihat dan memantau data kapal yang terdaftar serta menghapus data kapal sesuai kebutuhan operasional pelabuhan.
+
+**- Pendaftaran Kapal Baru**
+  Operator dapat mendaftarkan kapal baru dengan mengisi informasi berupa nama kapal, jenis kapal, draf kapal (m), gross tonnage (GT), dan waktu kedatangan. Operator juga dapat melihat dan memantau data kapal yang telah didaftarkan.
+
+**- Proses Penambatan Kapal**
+  Operator dapat mengelola proses penambatan kapal dengan menghubungkan kapal yang berstatus antre ke dermaga yang masih tersedia. Hal ini bertujuan untuk menentukan penempatan kapal berdasarkan ketersediaan dermaga.
+
+**- Pengelolaan Kargo dan Penyimpanan Barang**
+  Operator dapat mengelola proses bongkar muat kargo dengan menghubungkan kapal yang sedang bersandar dengan slot gudang sebagai tempat penyimpanan barang. Operator juga dapat memasukkan data kargo berupa nama barang, berat (ton), dan volume (m³).
+
+**- Manajemen dan Pemantauan Data Kargo**
+  Operator dapat melihat, mengubah, dan menghapus data kargo yang telah terdaftar. Operator juga dapat memperbarui informasi kargo, seperti nama barang dan berat barang (ton), sesuai dengan kondisi terbaru.
 
 ---
 
