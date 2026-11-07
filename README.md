@@ -322,12 +322,7 @@ Setelah berhasil masuk, akan muncul notifikasi konfirmasi login seperti berikut:
 
 Tampilan ini menunjukkan bahwa pengguna telah berhasil melakukan autentikasi dan siap menggunakan seluruh fitur di dalam sistem.
 
----
-#### 🏠 **Dashboard Admin**
 
-<p align="center">
-  <img width="799" height="667" alt="Screenshot 2025-11-04 231351 1" src="https://github.com/user-attachments/assets/ee69ca2e-41b5-454d-bf37-b780847ab991" />
-</p>
 
 Setelah login, pengguna akan diarahkan ke dashboard aplikasi **Argoport System**, di mana mereka dapat:
 
@@ -351,21 +346,14 @@ Tampilan sederhana dan responsif memudahkan pengguna dalam mengakses fitur utama
 ---
 
 <details>
-  <summary>📊 <b>1️⃣ Dashboard</b></summary>
+  <summary>📊 <b>1️⃣ Dashboard Admin</b></summary>
 
   <p align="center">
     <img width="783" height="529" alt="Dashboard Admin" src="https://github.com/user-attachments/assets/8d532833-8e7b-4035-bab8-e66a51964ebc" />
   </p>
 
-  Halaman **Dashboard Admin HELYA** berfungsi sebagai pusat pemantauan seluruh aktivitas pengaduan di wilayah kerja.  
-  Tampilan ini menampilkan informasi statistik seperti jumlah pengaduan masyarakat, status penanganan laporan, serta grafik perbandingan jenis pengaduan.  
+  Halaman **Dashboard Admin Argoport System** 
 
-  Desain dashboard menggunakan warna kontras untuk membedakan kategori status:
-  - 🟢 **Selesai**
-  - 🟡 **Sedang Diproses**
-  - 🔴 **Belum Diperiksa**
-
-  Melalui tampilan ini, admin dapat dengan mudah memantau, menganalisis, dan mengevaluasi perkembangan laporan secara efisien.
 </details>
 
 ---
