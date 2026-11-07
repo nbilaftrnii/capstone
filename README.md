@@ -35,9 +35,9 @@
 | **Nama** | **NIM** | **Kelas** | **GitHub Username** |
 |-----------|----------|------------|----------------------|
 | Mohammed Rifqy Syahdi | 2509116037 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-rifqysyahdi-black?logo=github&style=flat-square)](https://github.com/rifqysyahdi) |
-| Kardila Varani Barutu | 2509116009 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-kardilabarutu29-lang-black?logo=github&style=flat-square)](https://github.com/kardilabarutu29-lang) |
+| Kardila Varani Barutu | 2509116009 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-kardilabarutu29-black?logo=github&style=flat-square)](https://github.com/kardilabarutu29-lang) |
 | Zahra Masyita | 2509116015 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-zahramaysita-black?logo=github&style=flat-square)](https://github.com/zahramaysita) |
-| Nabila Fitriani | 2509116063 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-Oxcyy-black?logo=github&style=flat-square)](https://github.com/Oxcyy) |
+| Nabila Fitriani | 2509116063 | Sistem Informasi A '25 | [![GitHub](https://img.shields.io/badge/-nbilaftrnii-black?logo=github&style=flat-square)](https://github.com/nbilaftrnii) |
 
 ---
 
