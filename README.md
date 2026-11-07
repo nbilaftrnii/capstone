@@ -164,8 +164,6 @@ Program ARGO PORT SYSTEM menerapkan** 4 pilar utama** Object-Oriented Programmin
 ## 🗂️Library 
 Program ini menerapkan **library**:
 
-<img width="314" height="431" alt="image" src="https://github.com/user-attachments/assets/47f46aa1-f68b-427e-a9b5-66e2b029d700" />
-
 1. AbsoluteLayout-RELEASE260.jar – digunakan oleh NetBeans untuk mengatur tata letak (layout) komponen GUI secara absolut.
 2. flatlaf-3.5.1.jar – menyediakan tema tampilan modern untuk aplikasi berbasis Swing.
 3. hibernate-core-6.4.2.Final.jar – menangani proses Object Relational Mapping (ORM) antara objek Java dan tabel database.
@@ -301,7 +299,9 @@ Program ini menerapkan **library**:
 
 ---
 
-### 👤 **USER (Pengguna Aplikasi)**
+### 👤 **Admin (Pengguna Aplikasi)**
+
+### 🏠︎ Home
 
 #### 🔐 Login  
 
@@ -309,8 +309,10 @@ Program ini menerapkan **library**:
   <img width="798" height="565" alt="Login Page" src="https://github.com/user-attachments/assets/3f6383ba-36dd-4aa0-b8f2-f989676b41da" />
 </p>
 
-Langkah pertama sebelum mengakses sistem adalah **login ke aplikasi HELYA**.  
+Selanjutnya sebelum mengakses sistem adalah **login ke aplikasi Argoport System**.  
 Pengguna wajib mengisi **Username** dan **Password** yang telah terdaftar, kemudian menekan tombol **Login**.
+
+Pengguna juga dapat melihat password, apabila ingin melihat password yang telah diinput.
 
 Setelah berhasil masuk, akan muncul notifikasi konfirmasi login seperti berikut:
 
@@ -321,48 +323,30 @@ Setelah berhasil masuk, akan muncul notifikasi konfirmasi login seperti berikut:
 Tampilan ini menunjukkan bahwa pengguna telah berhasil melakukan autentikasi dan siap menggunakan seluruh fitur di dalam sistem.
 
 ---
-
-#### 🏠 **Beranda Pengguna**
+#### 🏠 **Dashboard Admin**
 
 <p align="center">
   <img width="799" height="667" alt="Screenshot 2025-11-04 231351 1" src="https://github.com/user-attachments/assets/ee69ca2e-41b5-454d-bf37-b780847ab991" />
 </p>
 
-Setelah login, pengguna akan diarahkan ke halaman utama aplikasi **HELYA**, di mana mereka dapat:
-- Membuat **pengaduan kesehatan pribadi**.  
-- Membuat **pengaduan fasilitas kesehatan (puskesmas, rumah sakit, klinik)**.  
-- Melihat **riwayat laporan** serta status tindak lanjut pengaduan (*Menunggu, Diproses, Selesai*).  
+Setelah login, pengguna akan diarahkan ke dashboard aplikasi **Argoport System**, di mana mereka dapat:
 
 Tampilan sederhana dan responsif memudahkan pengguna dalam mengakses fitur utama dengan cepat dan efisien.  
 
 ---
-
-#### 🩺 **Membuat Pengaduan**  
-Pengguna dapat memilih menu **“Pengaduan Kesehatan”** atau **“Pengaduan Fasilitas”**, lalu mengisi formulir berisi:  
-- Nama dan alamat pelapor.  
-- Jenis keluhan atau permasalahan.  
-- Keterangan tambahan atau foto pendukung (opsional).  
-
-Setelah dikirim, laporan otomatis tersimpan di basis data dan dapat dipantau statusnya oleh pengguna dan admin.
+#### 🚢 **Pendaftaran Kapal Baru**  
 
 ---
-
-#### 📊 **Riwayat Laporan**  
-Pada bagian bawah halaman utama, terdapat tabel **Riwayat Pengaduan** yang menampilkan:
-- Nomor laporan  
-- Nama pelapor  
-- Jenis pengaduan  
-- Status laporan  
-- Tombol *Detail* untuk melihat informasi lebih lanjut  
-
-Fitur ini membantu pengguna memantau sejauh mana pengaduannya telah ditindaklanjuti oleh pihak berwenang.  
+#### 📊 **Lihat Daftar Kapal**  
 
 ---
+### ⚓ **Penambatan Kapal**
 
-### 👨🏻‍💻 **ADMIN (Pengelola Sistem)**
+---
+### 🔨 **Bongkar Muat Kargo**
 
-Pengguna **Admin HELYA** memiliki peran penting dalam memantau, mengelola, dan memperbarui data pengaduan masyarakat serta fasilitas kesehatan.  
-Melalui akun admin, proses pengawasan dan tindak lanjut laporan dapat dilakukan secara cepat, terkoordinasi, dan transparan.
+---
+### 🗂️ **Kelola Data Kargo**
 
 ---
 
