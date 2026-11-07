@@ -43,7 +43,7 @@
 
 ## 📌 **Deskripsi Project**
 
-Program **ArgoPort Systems** merupakan aplikasi berbasis Java Swing yang dirancang untuk membantu pengelolaan kegiatan **operasional pelabuhan** secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
+Program **ArgoPort Systems** merupakan aplikasi berbasis **Java Swing** yang dirancang untuk membantu pengelolaan kegiatan **operasional pelabuhan** secara terstruktur dan terintegrasi. Aplikasi ini memiliki dua jenis pengguna utama, yaitu admin dan operator, yang masing-masing memiliki hak akses dan fungsi berbeda.
 
 **Admin** memiliki peran dalam mengelola data operasional pelabuhan, seperti data pengguna, kapal, dermaga, jadwal sandar, kargo, slot gudang, serta retribusi. Admin juga dapat memantau aktivitas kapal dan mengelola pencatatan biaya layanan pelabuhan.
 
@@ -60,9 +60,13 @@ Sistem ini dilengkapi dengan:
 ## 🎯 **Tujuan Pengembangan**
 
 a. Meningkatkan efektivitas dan efisiensi pengelolaan aktivitas dermaga, mulai dari proses pendataan kapal, pengelolaan jadwal sandar, hingga kegiatan bongkar muat kargo.
+
 b. Meningkatkan transparansi dan akurasi pengelolaan data kapal serta distribusi kargo melalui sistem informasi berbasis basis data terintegrasi.
+
 c. Mempermudah proses pemantauan dan pengawasan aktivitas operasional dermaga guna mendukung kelancaran proses pengiriman dan penerimaan kargo melalui jalur laut.
+
 d. Mengoptimalkan pengelolaan informasi dan administrasi dermaga agar lebih terstruktur, sistematis, dan meminimalkan kesalahan pencatatan data.
+
 e. Mendukung peningkatan kualitas pelayanan operasional pelabuhan melalui pemanfaatan teknologi informasi yang efektif dan terintegrasi.
 
 ---
@@ -74,44 +78,57 @@ ARGO PORT SYSTEM memiliki beberapa fitur utama untuk mendukung pengelolaan opera
 ### 🧑‍💼 Fitur Untuk Admin
 
 **- Login**
+  
   Admin dapat masuk ke dalam sistem menggunakan akun yang telah terdaftar untuk mengakses fitur pengelolaan sistem sesuai hak aksesnya.
 
 **- Manajemen Akun Operator**
+  
   Admin dapat melihat dan menghapus akun operator yang telah terdaftar dalam sistem.
 
 **- Lihat Billing dan Pembayaran**
+  
   Admin dapat melihat informasi tagihan serta riwayat pembayaran retribusi kapal yang menggunakan layanan tambat di pelabuhan.
 
 **- Manajemen, Pemantauan, dan Ekspor Laporan**
+ 
   Admin dapat melihat, mengelola, dan memantau laporan aktivitas operasional pelabuhan, termasuk perkembangan dan status penanganannya. Admin juga dapat mengekspor laporan ke dalam format Excel.
 
 **- Manajemen Data Dermaga (CRUD)**
+  
   Admin dapat menambahkan, melihat, mengubah, dan menghapus data dermaga yang meliputi kode dermaga, nama dermaga, kapasitas, serta status ketersediaan dermaga.
 
 **- Manajemen Data Slot Gudang (CRUD)**
+  
   Admin dapat mengelola data slot gudang, meliputi penambahan, pengubahan, penghapusan, dan pemantauan informasi kode blok, kapasitas, serta operator yang bertanggung jawab.
 
 **- Manajemen Tarif**
+ 
   Admin dapat melihat, memantau, dan menyimpan informasi tarif operasional pelabuhan, meliputi tarif tambat kapal per hari dan tarif muatan barang per ton.
 
 ### 👷 Fitur Untuk Operator
 
 **- Login**
+ 
   Operator dapat masuk ke dalam sistem menggunakan akun yang telah didaftarkan oleh admin untuk mengakses fitur operasional pelabuhan sesuai hak aksesnya.
 
 **- Pemantauan Data Kapal**
+ 
   Operator dapat melihat dan memantau data kapal yang terdaftar serta menghapus data kapal sesuai kebutuhan operasional pelabuhan.
 
 **- Pendaftaran Kapal Baru**
+
   Operator dapat mendaftarkan kapal baru dengan mengisi informasi berupa nama kapal, jenis kapal, draf kapal (m), gross tonnage (GT), dan waktu kedatangan. Operator juga dapat melihat dan memantau data kapal yang telah didaftarkan.
 
 **- Proses Penambatan Kapal**
-  Operator dapat mengelola proses penambatan kapal dengan menghubungkan kapal yang berstatus antre ke dermaga yang masih tersedia. Hal ini bertujuan untuk menentukan penempatan kapal berdasarkan ketersediaan dermaga.
+ 
+    Operator dapat mengelola proses penambatan kapal dengan menghubungkan kapal yang berstatus antre ke dermaga yang masih tersedia. Hal ini bertujuan untuk menentukan penempatan kapal berdasarkan ketersediaan dermaga.
 
 **- Pengelolaan Kargo dan Penyimpanan Barang**
+ 
   Operator dapat mengelola proses bongkar muat kargo dengan menghubungkan kapal yang sedang bersandar dengan slot gudang sebagai tempat penyimpanan barang. Operator juga dapat memasukkan data kargo berupa nama barang, berat (ton), dan volume (m³).
 
 **- Manajemen dan Pemantauan Data Kargo**
+  
   Operator dapat melihat, mengubah, dan menghapus data kargo yang telah terdaftar. Operator juga dapat memperbarui informasi kargo, seperti nama barang dan berat barang (ton), sesuai dengan kondisi terbaru.
 
 ---
@@ -197,12 +214,12 @@ Relasi utama:
 
 📌 **ERD LOGICAL**
 
-<img width="971" height="746" alt="image" src="https://github.com/user-attachments/assets/ae0448c7-2ac9-407e-a449-be52be5524c0" />
+<img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
 
 
 📌 **ERD RELATIONAL**
 
-![Uploading image.png…]()
+<img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
 
 📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
