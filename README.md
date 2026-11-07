@@ -456,31 +456,29 @@ Melalui akun admin, proses pengawasan dan tindak lanjut laporan dapat dilakukan 
   Setelah logout, sistem akan mengarahkan kembali ke halaman **Login**, menjaga agar akses aplikasi tetap aman dan terbatas hanya untuk pengguna yang berwenang.
 </details>
 
-
-
+---
 ## 📅 **Informasi Tambahan**
-🧩 **Kebutuhan Sistem**
+🧩 **Kebutuhan Sistem & Tech Stack**
 
-Sebelum menjalankan program **Sistem Informasi Pengaduan Layanan Kesehatan**, pastinya kami menggunakan beberapa perangkat yang sudah memenuhi beberapa kebutuhan sistem berikut:
+Sebelum menjalankan program **Sistem Informasi Manajemen Operasional Pelabuhan ArgoPort**, kami menggunakan beberapa perangkat dan perangkat lunak pendukung berikut:
 
-- **🧱 JDK 23**  
-  Java Development Kit (JDK) berisi kompiler *javac*, pustaka standar Java, serta alat bantu lain yang diperlukan untuk menulis, menjalankan, dan menguji program berbasis Java.
+- **🧱 Java & Apache NetBeans**  
+  Menggunakan bahasa pemrograman Java yang dikembangkan di lingkungan Apache NetBeans untuk membangun aplikasi berbasis desktop yang interaktif dan terstruktur.
 
-- **🖥️ NetBeans IDE 22**  
-  NetBeans merupakan lingkungan pengembangan terintegrasi (IDE) yang mendukung berbagai bahasa pemrograman seperti Java, PHP, dan C++.  
-  Versi terbaru memiliki fitur untuk *debugging*, integrasi Git, dan pengembangan aplikasi berbasis web maupun desktop.
+- **💾 MySQL & Laragon / SQL**  
+  Menggunakan database MySQL (yang dikelola melalui lingkungan lokal Laragon) sebagai Sistem Manajemen Basis Data Relasional (RDBMS) untuk menyimpan dan mengelola data operasional pelabuhan secara aman.
 
-- **⚙️ XAMPP**  
-  Diperlukan untuk menjalankan aplikasi yang membutuhkan server web, basis data, serta bahasa pemrograman *server-side*.  
-  XAMPP mempermudah proses konfigurasi dan pengelolaan lingkungan pengembangan.
+- **🔗 JDBC (Java Database Connectivity)**  
+  Pustaka penghubung yang memungkinkan aplikasi berbasis Java dapat berkomunikasi dan melakukan pertukaran data secara langsung dengan database `argoport_db`.
 
-- **💾 MySQL**  
-  Merupakan sistem manajemen basis data relasional (RDBMS) yang menggunakan bahasa SQL.  
-  MySQL berfungsi untuk menyimpan, mengatur, dan mengelola data agar tetap akurat, aman, serta mudah diakses kapan pun dibutuhkan.
+- **📐 Data Modeler & Draw.io**  
+  Digunakan untuk perancangan struktur basis data, pemodelan entitas (*ERD*), serta pembuatan diagram alur kerja sistem ArgoPort.
 
-- **🔗 MySQL Connector (JDBC)**  
-  Pustaka tambahan yang digunakan untuk menghubungkan aplikasi Java dengan basis data MySQL.  
-  Dengan konektor ini, aplikasi dapat melakukan proses komunikasi dan pertukaran data dengan database secara langsung.
+- **🐙 GitHub**  
+  Digunakan sebagai layanan *version control* untuk mengelola kode program, kolaborasi tim, dan dokumentasi repositori proyek.
+
+- **🎨 Canva**  
+  Digunakan untuk perancangan desain antarmuka, presentasi, serta aset visual pendukung laporan proyek.
 
 ---
 
